@@ -1,0 +1,1810 @@
+/*may need to do posiition fixed for the image */
+/* need to do fade out for all pages when clicking on navbar, think about what to make a home page*/
+body {
+    animation: film 3s; 
+    color:  #696969;  
+    cursor: pointer;
+} 
+
+@keyframes body { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+
+.main-container-header {
+    height: 1200px;  
+    width: 1130px; 
+} 
+
+
+.header-text {
+    color: #696969; 
+    font-family: "Didot"; 
+    font-size: 8px; 
+    font-style: italic; 
+    position: fixed; 
+    right: 265px; 
+    top: 20px; 
+}  
+
+.header-text-2 {
+    color: #696969;  
+    display: inline-block;
+    font-family: "Didot";
+    font-size: 8px;
+    margin-top: 20px; 
+    position: fixed; 
+    right: 180px; 
+}  
+
+.header-text-3 {
+    color: #696969;
+    font-family: "Didot";
+    font-size: 8px;
+    font-style: italic; 
+    margin-top: 30px; 
+    position: fixed; 
+    right: 180px; 
+}  
+
+
+
+.homepage-image {
+    margin-left: 600px; 
+    position: fixed;
+    z-index: -1; 
+}  
+
+/*navbar */
+.main-container-nav {
+    position: fixed;
+    top: 0;  
+    z-index: 1;    
+}  
+
+.nav-item {
+    list-style-type: none; 
+    margin-top: 50px; 
+    padding: 4px; 
+} 
+
+.nav-link {
+    color: #696969; 
+    cursor: pointer; 
+    font-family: "Didot";
+    font-size: 8px; 
+    font-style: italic; 
+}  
+
+a.il{
+    color: #696969; 
+    cursor: pointer; 
+    font-family: "Didot";
+    font-size: 17px; 
+    font-style: italic;
+    letter-spacing: 4px;  
+    margin-left: 550px; 
+    margin-top: 50px; 
+} 
+
+/*-------------- dropdown section */
+
+.dropdown-section {
+    background: rgba(255, 255, 255, 0.3);
+    height: 100vh;
+    padding: 80px 40px; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.dropdown-section ul {
+    list-style: none; 
+    font-family: "Didot";
+    font-style: italic;
+}    
+.dropdown-section ul li {
+   cursor: pointer; 
+   padding-bottom: 3px; 
+}   
+
+.editorial {
+    animation: editorial 1s; 
+    color:  #696969; 
+}
+
+@keyframes editorial {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+.film {
+    animation: film 1.5s; 
+    color:  #696969; 
+}
+
+@keyframes film {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+.advertising {
+    animation: advertising 2s; 
+    color:  #696969; 
+}
+
+@keyframes advertising {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+.women {
+    animation: women 2.5s; 
+    color:  #696969; 
+}
+
+@keyframes women {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+.personal {
+    animation: personal 3s; 
+    color:  #696969; 
+}
+
+@keyframes personal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+}
+
+/*publications & contact page */ 
+.publications-container {
+    animation: publications-container 3s;
+    color:  #696969; 
+    font-family: "Didot";
+} 
+
+@keyframes publications-container { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+}
+.publications-page {
+    font-family: "Didot";
+    font-style: italic; 
+    font-size: 18px; 
+    letter-spacing: 4px;  
+    text-align: center; 
+}  
+
+.publications {
+    color:  #696969; 
+    margin-left: 620px; 
+    margin-top: 250px; 
+    font-family: "Didot"; 
+    font-size: 10px; 
+}
+
+.publications-grid {
+    font-family: "Didot";
+    font-size: 10px; 
+    font-style: italic;
+    list-style-type: none;
+    margin-left: 580px; 
+    margin-bottom: 30px; 
+} 
+
+.border {
+    border-bottom: 1px solid #000000;
+    margin-left: 622px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+.contact {
+    font-family: "Didot";
+    font-size: 10px; 
+    margin-left: 622px; 
+}  
+
+.email {
+    font-family: "Didot";
+    font-size: 10px; 
+    font-style: italic;
+    margin-left: 622px;   
+}  
+.email a:link {
+    color:  #696969; 
+}
+
+/*editorial page... coming soon*/ 
+
+.editorial-page-soon {
+    color:  #696969; 
+    font-family: "Didot";
+    font-size: 10px;  
+    margin-top: 230px; 
+    text-align: center; 
+ } 
+
+ /*--------------- film page ---------- */ 
+
+ .film-page-soon {
+    color:  #696969; 
+    font-family: "Didot";
+    font-size: 10px;  
+    margin-top: 230px; 
+    text-align: center; 
+ } 
+ /* --------------- advertising page ---------------- */ 
+
+
+ .advertising-container {
+    animation: advertising-page 3s;
+    color:  #696969; 
+    font-family: "Didot";
+    font-size: 18px;  
+    font-style: italic; 
+    letter-spacing: 4px; 
+    margin-top: 40px; 
+    text-align: center; 
+    position: fixed;
+    z-index: -1;
+ }  
+ 
+
+@keyframes advertising-container { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+}
+/* ---------  carousel for advertising --------- */
+#myCarousel {
+  width: 1300px; 
+} 
+
+div.carousel-inner {
+    height: 70%; 
+    box-shadow: none;
+    margin-top: -50px; 
+}
+
+.adscaption {
+    text-shadow: none !important; 
+    border: none;
+    color: #696969; 
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    letter-spacing: 1px; 
+    margin-left: -200px; 
+    margin-top: -70px;  
+
+} 
+
+/* ------------- 0 img in carousel ---------- */ 
+div.carousel-inner #ads0 {
+    margin-left: 630px;
+    height: 700px;
+}  
+
+
+#ads0 {
+    animation: film 4s; 
+} 
+
+@keyframes ads0 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+/* ------------ 1st img in carousel ---------- */ 
+div.carousel-inner #ads1 {
+    margin-left: 630px;
+    height: 710px;
+    width: 500px; 
+} 
+
+#ads1 {
+    animation: film 4s; 
+} 
+
+@keyframes ads1 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+}  
+
+/* ------------ 2nd img in carousel ---------- */ 
+div.carousel-inner #ads2 {
+    margin-left: 630px;
+    height: 700px;
+    width: 500px;
+}  
+
+#ads2 {
+    animation: film 4s; 
+    box-shadow: none;
+    font-family: 'Didot';
+    font-style: italic; 
+} 
+
+@keyframes ads2 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+/* ----- 3rd img in carousel ---------- */ 
+div.carousel-inner #ads3 {
+    margin-left: 630px;
+    height: 700px;
+    width: 500px; 
+}   
+
+#ads3 {
+    animation: film 4s; 
+} 
+
+@keyframes ads3 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+/* ----- 4th img in carousel ---------- */ 
+div.carousel-inner #ads4 {
+    margin-left: 630px;
+    height: 700px;
+    width: 500px; 
+}  
+
+#ads4 {
+    animation: film 4s; 
+} 
+
+@keyframes ads4 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+/* ----- 5th img in carousel ---------- */ 
+div.carousel-inner #ads5 {
+    margin-left: 630px;
+    height: 700px;
+    width: 500px; 
+}  
+
+#ads5 {
+    animation: film 4s; 
+} 
+
+@keyframes ads5 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+/* ----- 6th img in carousel ---------- */ 
+div.carousel-inner #ads6 {
+    margin-left: 630px;
+    height: 720px;
+    width: 550px; 
+} 
+
+#ads6 {
+    animation: film 4s; 
+} 
+
+@keyframes ads6 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+ /* --------------------- women page ---------------------- */ 
+ .women-page {
+    color:  #696969; 
+    cursor: pointer;
+    font-family: "Didot";
+    font-size: 18px;  
+    font-style: italic; 
+    letter-spacing: 4px; 
+    text-align: center;
+ } 
+
+ .image-grid {
+    /*border-bottom: 1px solid black;*/
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 70px;
+    padding-bottom: 15px; 
+}
+
+ .image-grid .box { 
+  margin-left: 26px;
+  margin-top: 40px;
+ }  
+
+.line-break {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.box img:hover {
+    opacity: 0.3;
+    transition: all 0.3s;
+}   
+
+
+
+
+/* ------- women collection large pics -------- */
+
+.il {
+    color:  #696969; 
+    font-family: "Didot";
+    font-size: 18px;  
+    font-style: italic; 
+    letter-spacing: 4px;
+    margin-left: 500px; 
+    margin-top: 8px;
+    text-align: center; 
+    position: fixed; 
+
+}
+
+#img1 {
+    position: relative;
+    z-index: -3; 
+
+} 
+
+/* ----------- carousel for women's page first row ------------- */ 
+main-container-women {
+    position: fixed; 
+    width: 1300px; 
+    z-index: -3; 
+} 
+
+div.carousel-inner #w0 {
+    margin-top: 55px;
+    height: 720px;
+    width: 630px;
+}  
+
+#w0 {
+    animation: film 4s; 
+} 
+
+@keyframes w0 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+div.carousel-inner #w1 {
+    margin-left: 15px;
+    margin-top: 56px; 
+    height: 710px;
+    width: 600px;
+}  
+
+#w1 {
+    animation: film 4s; 
+} 
+
+@keyframes w1 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+}  
+
+div.carousel-inner #w2 {
+    margin-left: 15px;
+    margin-top: 55px;
+    height: 710px;
+    width: 1300px;
+}  
+
+#w2 {
+    animation: film 4s; 
+} 
+
+@keyframes w2 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+} 
+
+div.carousel-inner #w3 {
+    margin-left: 650px;
+    margin-top: 55px;
+    height: 710px;
+    width: 530px;
+}  
+
+#w3 {
+    animation: film 4s; 
+} 
+
+@keyframes w3 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+
+.wcaption1 {
+    text-shadow: none !important; 
+    border: none;
+    color: #696969; 
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    letter-spacing: 1px; 
+    margin-left: -150px; 
+    margin-top: -70px; 
+
+} 
+
+div.carousel-inner #w4 {
+    margin-left: 650px;
+    margin-top: 55px;
+    height: 710px;
+    width: 530px;
+}  
+
+#w4 {
+    animation: film 4s; 
+} 
+
+@keyframes w4 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+div.carousel-inner #w5 {
+    margin-left: 650px;
+    margin-top: 55px;
+    height: 710px;
+    width: 530px;
+}  
+
+#w5 {
+    animation: film 4s; 
+} 
+
+@keyframes w5 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+} 
+
+div.carousel-inner #w6 {
+    margin-left: 650px;
+    margin-top: 55px;
+    height: 710px;
+    width: 530px;
+}  
+
+#w6 {
+    animation: film 4s; 
+} 
+
+@keyframes w6 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+} 
+
+div.carousel-inner #w7 {
+    height: 710px;
+    margin-top: 55px;
+    width: 1300px;
+}  
+
+#w7 {
+    animation: film 4s; 
+} 
+
+@keyframes w7 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+} 
+/*-------------- row 2 slider of images ------------- */ 
+div.carousel-inner #w8 {
+    margin-left: 400px;
+    margin-top: 55px;
+    height: 710px;
+    width: 550px;
+}  
+
+#w8 {
+    animation: film 4s; 
+} 
+
+@keyframes w8 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+} 
+
+div.carousel-inner #w9 {
+    margin-left: 650px;
+    margin-top: 55px;
+    height: 710px;
+    width: 530px;
+}  
+
+#w9 {
+    animation: film 4s; 
+} 
+
+@keyframes w9 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+} 
+
+
+div.carousel-inner #w10 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 720px;
+    width: 580px;
+}  
+
+#w10 {
+    animation: film 4s; 
+} 
+
+@keyframes w10 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}   
+
+
+.wcaption2 {
+    text-shadow: none !important; 
+    border: none;
+    color: #696969; 
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    letter-spacing: 1px; 
+    margin-left: 290px; 
+    margin-top: -70px; 
+} 
+
+
+div.carousel-inner #w11 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 720px;
+    width: 580px;
+}  
+
+#w11 {
+    animation: film 4s; 
+} 
+
+@keyframes w11 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+} 
+
+div.carousel-inner #w12 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 720px;
+    width: 580px;
+}  
+
+#w12 {
+    animation: film 4s; 
+} 
+
+@keyframes w12 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+} 
+
+
+div.carousel-inner #w13 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 720px;
+    width: 580px;
+}  
+
+#w13 {
+    animation: film 4s; 
+} 
+
+@keyframes w13 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+} 
+
+/* ------------ row 3  ------------------- */ 
+
+div.carousel-inner #w14 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 720px;
+    width: 580px;
+}  
+
+#w14 {
+    animation: film 4s; 
+} 
+
+@keyframes w14 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+div.carousel-inner #w15 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 720px;
+    width: 580px;
+}  
+
+#w15 {
+    animation: film 4s; 
+} 
+
+@keyframes w14 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+div.carousel-inner #w16 {
+    margin-top: 55px;
+    height: 710px;
+    width: 1300px;
+}  
+
+#w16 {
+    animation: film 4s; 
+} 
+
+@keyframes w16 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+div.carousel-inner #w17 {
+    margin-left: 400px; 
+    margin-top: 55px;
+    height: 710px;
+    width: 500px;
+}  
+
+#w17 {
+    animation: film 4s; 
+} 
+
+@keyframes w17 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+/*----------- 4th row --------------- */  
+
+div.carousel-inner #w18 {
+    height: 710px;
+    margin-top: 55px;
+    width: 1300px;
+}  
+
+#w18 {
+    animation: film 4s; 
+} 
+
+@keyframes w18 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+div.carousel-inner #w19 {
+    margin-left: 650px;
+    margin-top: 55px;
+    height: 710px;
+    width: 530px;
+}  
+
+#w19 {
+    animation: film 4s; 
+} 
+
+@keyframes w19 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+div.carousel-inner #w20 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 720px;
+    width: 580px;
+}  
+
+#w20 {
+    animation: film 4s; 
+} 
+
+@keyframes w20 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+.wcaption3 {
+    text-shadow: none !important; 
+    border: none;
+    color: #696969; 
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    letter-spacing: 1px; 
+    margin-left: 230px; 
+    margin-top: -70px; 
+} 
+
+
+div.carousel-inner #w21 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 720px;
+    width: 580px;
+}  
+
+#w21 {
+    animation: film 4s; 
+} 
+
+@keyframes w21 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+div.carousel-inner #w22 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 720px;
+    width: 580px;
+}  
+
+#w22 {
+    animation: film 4s; 
+} 
+
+@keyframes w22 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+/* ------------------ row 4 ------------------ */ 
+
+div.carousel-inner #w23 {
+    margin-left: 775px;
+    margin-top: 55px;
+    height: 710px;
+    width: 600px;
+}  
+
+#w23 {
+    animation: film 4s; 
+} 
+
+@keyframes w23 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}   
+
+div.carousel-inner #w24 {
+    margin-left: 770px;
+    margin-top: 55px;
+    height: 710px;
+    width: 560px;
+}  
+
+#w24 {
+    animation: film 4s; 
+} 
+
+@keyframes w24 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+div.carousel-inner #w25 {
+    margin-left: 770px;
+    margin-top: 55px;
+    height: 710px;
+    width: 560px;
+}  
+
+#w25 {
+    animation: film 4s; 
+} 
+
+@keyframes w25 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}   
+
+div.carousel-inner #w26 {
+    margin-left: 770px;
+    margin-top: 55px;
+    height: 710px;
+    width: 560px;
+}  
+
+#w26 {
+    animation: film 4s; 
+} 
+
+@keyframes w26 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}   
+
+
+div.carousel-inner #w27 {
+    margin-left: 822px;
+    margin-top: 55px;
+    height: 710px;
+    width: 560px; 
+}  
+
+#w27 {
+    animation: film 4s; 
+} 
+
+@keyframes w27 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+div.carousel-inner #w28 {
+    margin-left: 822px;
+    margin-top: 55px;
+    height: 710px;
+    width: 560px; 
+}  
+
+#w28 {
+    animation: film 4s; 
+} 
+
+@keyframes w28 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+/* ------------- row 5 ---------------- */ 
+
+div.carousel-inner #w29 {
+    margin-left: 400px;
+    margin-top: 55px;
+    height: 710px;
+    width: 550px;
+}  
+
+#w29 {
+    animation: film 4s; 
+} 
+
+@keyframes w29 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}   
+
+div.carousel-inner #w30 {
+    margin-left: 120px;
+    margin-top: 55px;
+    height: 730px;
+    width: 580px;
+}  
+
+#w30 {
+    animation: film 4s; 
+} 
+
+@keyframes w30 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+   
+    }
+}  
+
+.wcaption4 {
+    text-shadow: none !important; 
+    border: none;
+    color: #696969; 
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    letter-spacing: 1px; 
+    margin-left: 260px; 
+    margin-top: -70px;  
+
+}
+
+div.carousel-inner #w31 {
+        margin-top: 55px;
+        height: 710px;
+        width: 600px; 
+    }  
+    
+    #w31 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w31 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    }  
+
+
+    div.carousel-inner #w32 {
+        margin-left: 775px;
+        margin-top: 55px;
+        height: 710px;
+        width: 600px; 
+    }  
+    
+    #w32 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w32 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    }  
+
+    div.carousel-inner #w33 {
+        margin-left: 400px;
+        margin-top: 55px;
+        height: 710px;
+        width: 550px;
+    }  
+    
+    #w33 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w33 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    }  
+
+    div.carousel-inner #w34 {
+        margin-left: 400px;
+        margin-top: 55px;
+        height: 710px;
+        width: 550px;
+    }  
+    
+    #w34 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w34 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    }  
+    div.carousel-inner #w35 {
+        margin-left: 400px;
+        margin-top: 55px;
+        height: 710px;
+        width: 550px;
+    }  
+    
+    #w35 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w35 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    }  
+/* ------------- row 6 --------------- */ 
+    div.carousel-inner #w36 {
+        margin-left: 400px;
+        margin-top: 55px;
+        height: 710px;
+        width: 550px;
+    }  
+    
+    #w36 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w36 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    }  
+
+    div.carousel-inner #w37 {
+        margin-left: 400px;
+        margin-top: 55px;
+        height: 710px;
+        width: 550px;
+    }  
+    
+    #w37 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w37 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    }  
+
+    div.carousel-inner #w38 {
+        margin-left: 400px;
+        margin-top: 55px;
+        height: 710px;
+        width: 550px;
+    }  
+    
+    #w38 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w38 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    } 
+
+
+    div.carousel-inner #w39 {
+        margin-left: 400px;
+        margin-top: 55px;
+        height: 710px;
+        width: 550px;
+    }  
+    
+    #w39 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w39 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    } 
+    
+    div.carousel-inner #w40 {
+        margin-left: 822px; 
+        margin-top: 55px;
+        height: 710px;
+        width: 580px; 
+    }  
+    
+    #w40 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w40 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    }  
+
+    div.carousel-inner #w41 {
+        margin-left: 120px;
+        margin-top: 55px;
+        height: 720px;
+        width: 580px;
+    }  
+    
+    #w41 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w41 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    }  
+
+    div.carousel-inner #w42 {
+        margin-left: 120px;
+        margin-top: 55px;
+        height: 720px;
+        width: 580px;
+    }  
+    
+    #w42 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w42 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    } 
+
+    div.carousel-inner #w43 {
+        margin-left: 120px;
+        margin-top: 55px;
+        height: 720px;
+        width: 580px;
+    }  
+    
+    #w43 {
+        animation: film 4s; 
+    } 
+    
+    @keyframes w43 { 
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1; 
+       
+        }
+    } 
+
+
+/* -------------- personal page ---------------- */ 
+
+
+.personal-container {
+    animation: film 4s; 
+    position: fixed;
+    z-index: -1;
+} 
+
+@keyframes personal-container { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+}  
+
+/* -------------- carousel personal -------------- */ 
+
+.main-container-personal {
+    width: 1300px; 
+}
+
+div.carousel-inner #personal0 {
+    margin-top: 22px;
+    margin-left: 350px;
+    height: 710px; 
+    width: 600px; 
+}
+
+#personal0 {
+    animation: film 4s; 
+} 
+
+@keyframes personal0 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+#personal1 {
+    animation: film 3s; 
+    width: 1150px; 
+    height: 710px; 
+} 
+
+@keyframes personal1 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+
+div.carousel-inner #personal2 {
+    margin-left: 700px;
+    width: 600px;
+    height: 710px;
+} 
+
+#personal2 {
+    animation: film 4s; 
+} 
+
+@keyframes personal2 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+
+div.carousel-inner #personal3 {
+    margin-left: 350px;
+    height: 710px;
+    width: 600px;
+}  
+
+#personal3 {
+    animation: film 4s; 
+} 
+
+@keyframes p3 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+
+
+div.carousel-inner #personal4 {
+    margin-left: 150px;
+    height: 710px;
+    width: 600px;
+} 
+
+#personal4 {
+    animation: film 4s; 
+} 
+
+@keyframes personal4 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+div.carousel-inner #personal5 {
+    margin-left: 150px;
+    width: 600px;
+    height: 710px;
+}  
+
+#personal5 {
+    animation: film 4s; 
+} 
+
+@keyframes personal5 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+div.carousel-inner #personal6 {
+    width: 1150px;
+    height: 800px;
+}  
+
+#personal6 {
+    animation: film 4s; 
+} 
+
+@keyframes personal6 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+
+div.carousel-inner #personal7 {
+    margin-left: -20px;
+    width: 1150px;
+    height: 710px;
+}  
+
+#personal7 {
+    animation: film 4s; 
+} 
+
+@keyframes personal7 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+
+div.carousel-inner #personal8 {
+    width: 1150px;
+    height: 710px;
+}  
+
+#personal8 {
+    animation: film 4s; 
+} 
+
+@keyframes personal8 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+div.carousel-inner #personal9 {
+    width: 1150px; 
+    height: 710px;
+} 
+
+#personal9 {
+    animation: film 4s; 
+} 
+
+@keyframes personal9 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+
+div.carousel-inner #personal10 {
+    margin-left: 700px;
+    height: 710px;
+}  
+
+#personal10 {
+    animation: film 4s; 
+} 
+
+@keyframes personal10 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+} 
+
+
+div.carousel-inner #personal11 {
+    margin-left: 700px;
+    height: 710px;
+} 
+
+#personal11 {
+    animation: film 4s; 
+} 
+
+@keyframes personal11 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+}  
+
+div.carousel-inner #personal12 {
+    margin-left: 700px;
+    height: 710px;
+} 
+
+#personal12 {
+    animation: film 4s; 
+} 
+
+@keyframes personal12 { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+}   
+  
+
+
+  /* ------------------------- carousel arrows ------------------- */
+
+  .glyphicon-menu-left, .glyphicon-menu-right  {
+     color: #696969; 
+  } 
+
+
+  .carousel-control.left, .carousel-control.right {
+    background: none !important;
+    filter: none !important;
+    margin-top: 400px; 
+    outline: 0;
+   }
+  .carousel .carousel-control {
+    visibility: visible;
+  }
+  .carousel:hover .carousel-control {
+    visibility: visible;
+  }
+
+  #leftArrow {
+      height: 10px; 
+      background: none;
+      margin-left: -50px; 
+  } 
+
+  #rightArrow {
+      height: 10px; 
+      background: none;
+      margin-right: -60px; 
+  } 
+
+
+
