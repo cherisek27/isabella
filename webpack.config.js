@@ -20,10 +20,10 @@ var config = {
                     presets: ["react", "es2015", "stage-2"]
                 }
             }, 
-        { 
+        /*{ 
             test:/\.css$/, 
             loader: 'style-laoder!css-laoder'
-        }    
+        }   */ 
       ]
     },
     devtool: "eval-source-map"
