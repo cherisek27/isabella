@@ -4,8 +4,9 @@
   "description": "isabella lombardini website",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build:prod && serve dist",
+    "start": "serve dist -s",
     "dev": "npm run build",
+    "postinstall": "npm run build:prod",
     "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
     "build:prod": "webpack -p && cp src/index.html dist/index.html && cp -r src/assets dist/assets"
   },
