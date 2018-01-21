@@ -35,6 +35,13 @@
         font-size: 23px; 
         letter-spacing: 4px; 
     }
+    .publications-container {
+        margin-top: 700px; 
+        margin-left: 400px; 
+    } 
+    .border {
+        margin-right: 200px; 
+    }
 } 
 
 @media only screen and (max-width: 1300px) {
@@ -73,5 +80,12 @@
         margin-top: 58px; 
         font-size: 18px; 
         letter-spacing: 4px; 
+    } 
+    .publications-container {
+        margin-top: 350px; 
+        margin-left: 80px; 
+    } 
+    .border {
+        margin-right: 100px; 
     }
 }
