@@ -20,15 +20,15 @@ class Nav extends Component {
     render() { 
         return(
             <div className="main-container-nav"> 
-                <a className="il" href="/">ISABELLA LOMBARDINI</a>
+                <a className="il" href="/" style={{ textDecoration: 'none'}}>ISABELLA LOMBARDINI</a>
              
                         <div className="collapse navbar-collapse" id="navbarText">
                             <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                        <a className="nav-link" onClick={this.dropdown}>Collections <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" onClick={this.dropdown}  style={{ textDecoration: 'none'}}>Collections <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
-                        <a className="nav-link" href="/publications&contact">Publications & Contact</a>
+                        <a className="nav-link" href="/publications&contact"  style={{ textDecoration: 'none'}}>Publications & Contact</a>
                             </li>
                             </ul> 
                 </div>

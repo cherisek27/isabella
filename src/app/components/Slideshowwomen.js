@@ -1,13 +1,13 @@
-import React from 'react'
+{/*import React from 'react'
 
 const Slideshowwomen = () => (
     <div className="main-container-women">
         <div className="container-women-slideshow">
      
-              <div id="myCarousel" className="carousel slide" data-ride="carousel">
+<div id="myCarousel" className="carousel slide" data-ride="carousel">*/}
 
               {/* Wrapper for slides */}
-              <div className="carousel-inner">
+             {/*} <div className="carousel-inner">
               <div className="item active">                    
                 <img src="assets/images/thumb/0.jpg" id="w0"  />           
                  </div>
@@ -227,10 +227,10 @@ const Slideshowwomen = () => (
                  </div>      
 
 
-            </div> 
+</div> */}
       
               {/* Left and right controls */}
-              <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+            {/*}  <a className="left carousel-control" href="#myCarousel" data-slide="prev">
                   <span className="glyphicon glyphicon-menu-left"></span>
                   <span className="sr-only">Previous</span>
               </a>
@@ -245,4 +245,4 @@ const Slideshowwomen = () => (
       )
 
 
-export default Slideshowwomen; 
+    export default Slideshowwomen; */}

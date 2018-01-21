@@ -1,104 +1,113 @@
-/* figure out line break problem */
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom'; 
-import Lightbox from 'react-image-lightbox';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+// import Lightbox from 'react-image-lightbox';
 import Nav from './Nav';
-import Slideshowwomen from './Slideshowwomen';
+import allImages from './allImages';
+//import Slideshowwomen from './Slideshowwomen';
 
-class  Women extends Component {
-    constructor(props) {
-        super(props);
-     
-        this.state = {
-          photoIndex: 0,
-          isOpen: false,
-        };
+//remove background fade on onClick show full screen and remove zoom/ - minus bar
 
-        this.showGallery = this.showGallery.bind(this);
+class Women extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      photoIndex: 0,
+      isOpen: false,
+      margin: 0
+    };
+
+    this.showGallery = this.showGallery.bind(this);
+    this.navigate = this.navigate.bind(this);
+  }
+
+  showGallery(index) {
+    this.setState({ isOpen: true, photoIndex: index })
+  }
+
+  navigate(type) {
+    const pageWidth = window.innerWidth;
+    let photoIndex;
+    if(type === 'next') {
+      photoIndex = this.state.photoIndex + 1;
+    } else {
+      photoIndex = this.state.photoIndex ? this.state.photoIndex - 1 : allImages.length - 1;
     }
+    this.setState({
+      photoIndex
+    });
+  }
 
-    showGallery(index) {
-        this.setState({ isOpen: true, photoIndex: index})
-    }
+  render() {
+    const { photoIndex, isOpen } = this.state;
 
-    render() {
-        const images = [
-            '../assets/images/1allieleggett.jpg',
-            '../assets/images/1.1AllieLeggett.jpg',
-            '../assets/images/2AlanaHadid.jpg',
-            '../assets/images/3Rafaella.jpg',
-            '../assets/images/3.1Rafaella.jpg',
-            '../assets/images/3.2Rafaella.jpg',
-            '../assets/images/3.3Rafaella.jpg',
-            
-            './assets/images/4ChloeLloyd.jpg',   
-            '../assets/images/5ArianaAnast.jpg', 
-            '../assets/images/6GeorginaGrace.jpg', 
-            '../assets/images/7CatrinaStella.jpg', 
-            '../assets/images/7.1CatrinaStella.jpg', 
-            '../assets/images/6.2CatrinaStella.jpg', 
-            '../assets/images/6.3CatrinaStella.jpg', 
-
-            '../assets/images/6.4CatrinaStella.jpg', 
-            '../assets/images/6.5CatrinaStella.jpg', 
-            '../assets/images/7CarolineVreeland.jpg', 
-            '../assets/images/8GeorginaGrace.jpg', 
-            '../assets/images/9WomeninCalifornia.jpg', 
-            '../assets/images/9.1WomeninCalifornia.jpg', 
-
-            '../assets/images/10.2LauraColeman.jpg', 
-            '../assets/images/10.1LauraColeman.jpg', 
-            '../assets/images/10LauraColeman.jpg', 
-            '../assets/images/11catherinedunlop.jpg', 
-            '../assets/images/11.1CatherineDunlop.jpg', 
-            '../assets/images/11.2CatherineDunlop.jpg', 
-            '../assets/images/11.3CatherineDunlop.jpg', 
-            '../assets/images/11.5CatherineDunlop.jpg', 
-
-            '../assets/images/11.6CatherineDunlop.jpg', 
-            '../assets/images/17Charlotte.jpg',
-            '../assets/images/12.1GeorginaGrace.jpg', 
-            '../assets/images/5.1CarolineVreeland.jpg',
-            '../assets/images/13TessJantschek.jpg',
-            '../assets/images/14.5LeilaYavari.jpg',
-            '../assets/images/14LeilaYavari.jpg', 
-            '../assets/images/14.2LeilaYavari.jpg', 
-
-            '../assets/images/14.4LeilaYavari.jpg',
-            '../assets/images/14.6LeilaYavari.jpg', 
-            '../assets/images/14.3LeilaYavari.jpg',
-            '../assets/images/14.1LeilaYavari.jpg',
-            '../assets/images/16JessicaBuchanan.jpg',
-            '../assets/images/15.2VeronicaTaylor.jpg', 
-            '../assets/images/15VeronicaTaylor.jpg', 
-            '../assets/images/15.1VeronicaTaylor.jpg'
-        ] 
-            const { photoIndex, isOpen } = this.state; 
-
-            const style2= {'width': '285px', 'height': '190px'};
-            const style = {'width': '130px', 'height':'190px'};
-            const differentSizeIndexes = [2, 7, 16, 18];
-            return (
-            <div className="women">
-                
-                    <div className="image-grid">
+    const style2 = { 'width': '285px', 'height': '190px' };
+    const style = { 'width': '130px', 'height': '190px' };
+    const differentSizeIndexes = [2, 7, 16, 18];
+    return (
+      <div className="women">
+        {
+          isOpen && (
+            <div className="gallery-popup">
+              <div className="gallery-wrapper">
+                {
+                  allImages.map((each, index) => (
+                    <div key={index} className={photoIndex === index ? "each active" : "each"}>
+                      <div className={`image-holder ${each.position}`}>
                         {
-                            images.map((each, index) => {
-                                return (
-                                <div
-                                    key={index}
-                                    onClick={() => this.showGallery(index)}
-                                    className="box">
-
-                                        <img src={"../assets/images/thumb/"+index+".jpg"} style={(differentSizeIndexes.includes(index)) ? style2 : style} /> 
-      
-                                        {(index % 6 === 0) ? <hr className="line-break"/> : null } 
-                                </div>
-                                );
-                            })
+                          (each.caption && each.position.includes('right')) && <p className={`caption ${each.position}`}>{each.caption}</p>
                         }
+                        <img src={each.src} />
+                        {
+                          (each.caption && each.position.includes('left')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p>
+                        }
+                      </div>
+                    </div>
+                  ))
+                }
 
-                    {isOpen && (
+              </div>
+              <div onClick={() => this.navigate('prev')} className="nav arrow-left">
+                <img src="../assets/images/thumb/arrow-left.png" />
+              </div>
+              <div onClick={() => this.navigate('next')}  className="nav arrow-right">
+                <img src="../assets/images/thumb/arrow-right.png" />
+              </div>
+            </div>)
+        }
+
+        {
+          !isOpen && (
+            <div className="image-grid">
+              {
+                allImages.map((each, index) => {
+                  return (
+                    <div
+                      key={index}
+                      onClick={() => this.showGallery(index)}
+                      className="box">
+
+                      <img src={"../assets/images/thumb/" + index + ".jpg"} style={(differentSizeIndexes.includes(index)) ? style2 : style} />
+
+                      {/*(index % 6 === 0) ? <hr className="line-break"/> : null */}
+                    </div>
+                  );
+                })
+              }
+            </div>)
+        }
+
+        {/*<Slideshowwomen />*/}
+
+      </div>
+    );
+  }
+}
+
+export default Women;
+
+/*
+{/*{isOpen && (
                         <Lightbox
                             mainSrc={images[photoIndex]}
                             nextSrc={images[(photoIndex + 1) % images.length]}
@@ -116,14 +125,4 @@ class  Women extends Component {
                             }
                         />
                     )}
-                
-                </div>   
-
-            <Slideshowwomen />
-
-            </div> 
-        );
-    }
-} 
-
-export default Women; 
+*/

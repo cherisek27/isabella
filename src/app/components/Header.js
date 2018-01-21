@@ -18,11 +18,11 @@ class Header extends Component {
     }
 
     render() { 
-        const style = {'width': '500px', 'height':'700px'};
+        {/*const style = {'width': '500px', 'height':'700px'};*/}
         return(
             <div className="main-container-header">
                 <div className="container"> 
-                    <div className="homepage-image"><img src="../assets/images/homepage.jpg" style={style}/></div>
+                    <div className="homepage-image"><img src="assets/images/a.jpg" id="homepageImage"/></div>
                     </div> 
                         <span className="header-text">
                          the Helmut Newton series,
@@ -40,19 +40,19 @@ class Header extends Component {
                 <div className="dropdown-section" onClick={this.dropdown}>
                     <ul>
                         <li>
-                            <Link to="editorial" className="editorial">EDITORIAL</Link>
+                            <Link to="editorial" className="editorial" style={{ textDecoration: 'none'}} >EDITORIAL</Link>
                         </li>
                         <li>
-                            <Link to="film" className="film">FILM</Link>
+                            <Link to="film" className="film" style={{ textDecoration: 'none'}}>FILM</Link>
                         </li>
                         <li>
-                            <Link to="advertising" className="advertising">ADVERTISING</Link>
+                            <Link to="advertising" className="advertising" style={{ textDecoration: 'none'}}>ADVERTISING</Link>
                         </li>
                         <li>
-                            <Link to="women" className="women">WOMEN</Link>
+                            <Link to="women" className="women" style={{ textDecoration: 'none'}}>WOMEN</Link>
                         </li>
                         <li>
-                            <Link to="personal" className="personal">PERSONAL</Link>
+                            <Link to="personal" className="personal" style={{ textDecoration: 'none'}}>PERSONAL</Link>
                         </li>
                     </ul>
                 </div> : null

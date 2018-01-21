@@ -3,7 +3,6 @@
 body {
     animation: film 3s; 
     color:  #696969;  
-    cursor: pointer;
 } 
 
 @keyframes body { 
@@ -71,26 +70,39 @@ body {
     list-style-type: none; 
     margin-top: 50px; 
     padding: 4px; 
+    text-decoration: none;
 } 
+
+.nav-item:hover {
+    cursor: pointer; 
+}
 
 .nav-link {
-    color: #696969; 
-    cursor: pointer; 
+    color: #696969;  
     font-family: "Didot";
-    font-size: 8px; 
-    font-style: italic; 
-}  
+    font-size: 11px; 
+    font-style: italic;  
+}   
+
+.nav-link:hover {
+    color:  #BEBEBE;
+}
+
 
 a.il{
-    color: #696969; 
-    cursor: pointer; 
+    color: 	#505050;
     font-family: "Didot";
-    font-size: 17px; 
+    font-size: 20px; 
     font-style: italic;
-    letter-spacing: 4px;  
+    letter-spacing: 3px;  
     margin-left: 550px; 
-    margin-top: 50px; 
-} 
+    margin-top: 45px; 
+}  
+
+a.il:hover {
+  color:  #BEBEBE;
+  cursor: pointer; 
+}
 
 /*-------------- dropdown section */
 
@@ -109,7 +121,6 @@ a.il{
     font-style: italic;
 }    
 .dropdown-section ul li {
-   cursor: pointer; 
    padding-bottom: 3px; 
 }   
 
@@ -455,7 +466,6 @@ div.carousel-inner #ads6 {
  /* --------------------- women page ---------------------- */ 
  .women-page {
     color:  #696969; 
-    cursor: pointer;
     font-family: "Didot";
     font-size: 18px;  
     font-style: italic; 
@@ -1807,4 +1817,114 @@ div.carousel-inner #personal12 {
   } 
 
 
+/** Gallery popup styles **/
+.gallery-popup {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background: #fff;
+    overflow: hidden;
+}
 
+.gallery-popup .gallery-wrapper {
+    /* I'll probably change this width later but let's leave it for now
+        200% means 2 divs with each, but now that i've added the third
+        i will change it to 3
+    */
+    width: 100%;
+}
+
+.gallery-wrapper .each {
+    /* I divided 100% by 2 cos there were just two pictures but now
+        i'll change it to 3 since i've added the third one
+    */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    height: 100vh;
+}
+
+.gallery-wrapper .each.active {
+    opacity: 1;
+}
+
+.gallery-popup .gallery-wrapper .image-holder {
+    display: flex;
+    overflow: hidden;
+}
+
+.gallery-popup .gallery-wrapper .image-holder.left {
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.gallery-popup .gallery-wrapper .image-holder.right {
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.each p.caption.left.edge {
+    margin-left: 50px; 
+}
+
+.gallery-popup .gallery-wrapper div.left.edge, .gallery-popup .gallery-wrapper div.right.edge {
+    margin: 0;
+}
+
+.each .caption {
+    margin-top: 40%;
+    font-size: 16px;
+}
+
+.each p.caption.left {
+    margin-left: 100px;
+}
+
+.each p.caption.right {
+    margin-right: 100px;
+}
+
+
+.gallery-popup .gallery-wrapper .center {
+    justify-content: center;
+}
+
+.gallery-popup .gallery-wrapper .full img {
+    width: 100%;
+}
+
+.gallery-popup .nav {
+    position: absolute;
+    color: #fff;
+    top: calc((100% - 30px) / 2);
+    display: none;
+}
+
+.gallery-popup:hover .nav {
+    display: block;
+}
+
+.gallery-popup .nav.arrow-right {
+    right: 20px;
+}
+
+.gallery-popup .nav.arrow-left {
+    left: 20px;
+}
+
+/*.each .image-holder {
+    width: 50%;
+}*/
+.each .image-holder img {
+    height: 100vh;
+}
+
+.gallery-popup .gallery-wrapper p.caption.caption-right {
+    margin-left: 50%;
+}
+
+/** end of gallery **/ 
