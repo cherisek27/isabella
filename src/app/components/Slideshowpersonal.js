@@ -56,7 +56,7 @@ const Slideshowpersonal = () => (
           </div>   
 
           <div className="item">
-              <img src="assets/images/thumbnailsP/7MattDjordjevic.jpg" id="personal10" />
+              <img src="assets/images/7MattDjordjevic1.jpg" id="personal10" />
           <div className="carousel-caption">  
               <p className="personalcaption">Matthew Djordjevic, Melrose Place</p>
               </div> 

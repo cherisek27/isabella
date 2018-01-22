@@ -171,7 +171,7 @@ div.carousel-inner #personal12 {
     }
 } 
 
-/* --------------------------------------------- */ 
+/* ---------------------------------------------------------------- */ 
 @media only screen and (max-width: 1600px) {
     #myCarousel {
         width: 1600px; 
@@ -248,5 +248,213 @@ div.carousel-inner #personal12 {
     #rightp {
         margin-top: 280px; 
         margin-left: 60px;  
+    } 
+} 
+
+/* ---------------------------------------------------- */ 
+@media only screen and (max-width: 1440px) {
+    #myCarousel {
+        width: 1440px; 
+    }
+    a.il {
+        margin-left: 550px; 
+        font-size: 23px; 
+    } 
+    div.carousel-inner #personal0 {
+        margin-left: 500px;
+        height: 980px; 
+        width: 500px; 
+    } 
+    div.carousel-inner #personal1 {
+        height: 980px; 
+        width: 1300px; 
+    } 
+    div.carousel-inner #personal2 {
+        margin-left: 738px;
+        height: 980px; 
+        width: 700px; 
+    } 
+    div.carousel-inner #personal3 {
+        margin-left: 440px;
+        height: 980px; 
+        width: 600px; 
+    } 
+    div.carousel-inner #personal4 {
+        margin-left: 85px;
+        height: 980px; 
+        width: 600px; 
+    } 
+    div.carousel-inner #personal5 {
+        margin-left: 85px;
+        height: 980px; 
+        width: 600px; 
+    } 
+    div.carousel-inner #personal6 {
+        height: 980px; 
+        width: 1300px; 
+    } 
+    div.carousel-inner #personal7 {
+        height: 980px; 
+        width: 1300px; 
+    } 
+    div.carousel-inner #personal8 {
+        height: 980px; 
+        width: 1300px; 
+    } 
+    div.carousel-inner #personal9 {
+        height: 980px; 
+        width: 1300px; 
+    } 
+    div.carousel-inner #personal10 {
+        margin-left: 938px; 
+        height: 850px; 
+        width: 500px; 
+    } 
+    .personalcaption {
+        margin-left: -1100px; 
+        margin-top: -80px;  
+    } 
+    div.carousel-inner #personal11 {
+        margin-left: 938px; 
+        height: 850px; 
+        width: 500px; 
+    }  div.carousel-inner #personal12 {
+        margin-left: 938px; 
+        height: 850px; 
+        width: 500px; 
+    } 
+#leftp {
+    margin-top: 30px; 
+} 
+#rightp {
+    margin-top: 30px; 
+    margin-left: 20px;  
+    } 
+} 
+
+/* ----------------------------------------------- */ 
+@media only screen and (max-width: 1300px) {
+    #myCarousel {
+        width: 1300px; 
+    }
+    a.il {
+        margin-left: 500px; 
+    } 
+    div.carousel-inner #personal0 {
+        margin-left: 400px;
+        height: 980px; 
+        width: 500px; 
+    }  
+    div.carousel-inner #personal1 {
+        height: 980px; 
+        width: 1150px; 
+    } 
+    div.carousel-inner #personal2 {
+        margin-left: 785px; 
+        height: 980px; 
+        width: 500px; 
+    } 
+    div.carousel-inner #personal10 {
+        margin-left: 785px; 
+        height: 780px; 
+        width: 500px; 
+    } 
+    .personalcaption {
+        margin-left: -1100px; 
+        margin-top: -80px;  
+    } 
+    div.carousel-inner #personal11 {
+        margin-left: 785px; 
+        height: 780px; 
+        width: 500px; 
+    } 
+    div.carousel-inner #personal12 {
+        margin-left: 785px; 
+        height: 780px; 
+        width: 500px; 
+    } 
+#leftp {
+    margin-top: 10px; 
+} 
+#rightp {
+    margin-top: 10px; 
+    margin-left: 10px;  
+    } 
+} 
+
+/* ----------------------------------------------- */ 
+@media only screen and (max-width: 1024px) {
+    #myCarousel {
+        width: 10240px; 
+    }
+    a.il {
+        margin-left: 400px; 
+    } 
+    div.carousel-inner #personal0 {
+        margin-left: 100px;
+        height: 750px; 
+        width: 500px; 
+    } 
+    div.carousel-inner #personal1 {
+        margin-left: 300px;
+        height: 200px; 
+        width: 200px; 
+    } 
+    div.carousel-inner #personal2 {
+        margin-left: 300px;
+        height: 200px; 
+        width: 200px; 
+    } 
+    div.carousel-inner #personal3 {
+        margin-left: 300px;
+        height: 200px; 
+        width: 200px; 
+    } 
+    div.carousel-inner #personal4 {
+        margin-left: 300px;
+        height: 200px; 
+        width: 200px; 
+    } 
+    div.carousel-inner #personal5 {
+        margin-left: 300px;
+        height: 200px; 
+        width: 200px; 
+    } 
+    div.carousel-inner #personal6 {
+        margin-left: 300px;
+        height: 200px; 
+        width: 200px; 
+    } 
+    div.carousel-inner #personal7 {
+        margin-left: 300px;
+        height: 200px; 
+        width: 200px; 
+    } 
+    div.carousel-inner #personal8 {
+        margin-left: 300px;
+        height: 200px; 
+        width: 200px; 
+    } 
+    div.carousel-inner #personal9 {
+        margin-left: 300px;
+        height: 200px; 
+        width: 200px; 
+    } 
+    div.carousel-inner #personal10 {
+        margin-left: 785px; 
+        height: 750px; 
+        width: 500px; 
+    } 
+    .personalcaption{
+        margin-left: -1000px; 
+        margin-top: -50px;   
+    }
+#leftp {
+    margin-left: -1470px; 
+} 
+#rightp {
+    margin-right: 200px; 
+    margin-top: -10px;
+    padding: 100px;   
     } 
 }
