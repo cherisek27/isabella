@@ -20,7 +20,7 @@ class Nav extends Component {
     render() { 
         return(
             <div className="main-container-nav"> 
-                <a className="il" href="/" style={{ textDecoration: 'none'}}>ISABELLA LOMBARDINI</a>
+              <a className="il" href="/" style={{ textDecoration: 'none'}}>ISABELLA LOMBARDINI</a> 
              
                         <div className="collapse navbar-collapse" id="navbarText">
                             <ul className="navbar-nav mr-auto">

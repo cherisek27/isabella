@@ -7,8 +7,9 @@ class Personal extends Component {
     render() {
             return (
             <div className="personal-container">
-                
-                <Slideshowpersonal />
+           
+                <Slideshowpersonal />   
+
                 
             </div>
         );

@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1700px) {
+  #mycarousel{
+      width: 1700px; 
+  }
+    div.carousel-inner #personal0 {
+        margin-left: 600px;
+        height: 1100px; 
+        width: 650px; 
+    } 
+     div.carousel-inner #personal1 {
+        height: 1100px; 
+        width: 1600px; 
+    } 
+    div.carousel-inner #personal2 {
+        margin-left: 900px; 
+        height: 1100px; 
+        width: 700px; 
+    }
+    #leftp {
+        margin-top: 180px; 
+    } 
+    #rightp {
+        margin-top: 180px; 
+        margin-left: 480px; 
+    }
+}

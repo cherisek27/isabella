@@ -13,6 +13,7 @@ body {
 } 
 
 
+
 .main-container-header {
     height: 1200px;  
     width: 1130px; 
@@ -88,12 +89,12 @@ body {
 
 
 a.il{
-    color: 	#505050;
+    color: 		#484848;
     font-family: "Didot";
     font-size: 20px; 
     font-style: italic;
     letter-spacing: 3px;  
-    margin-left: 550px; 
+    margin-left: 500px; 
     margin-top: 45px; 
 }  
 
@@ -1540,6 +1541,7 @@ div.carousel-inner #w31 {
     color: #000000;
     height: 50px; 
     visibility: hidden; 
+    margin-left: -100px; 
 } 
 
 .slide:hover #leftp {
@@ -1550,6 +1552,7 @@ div.carousel-inner #w31 {
     color: #000000;
     height: 50px; 
     visibility: hidden; 
+    margin-right: -55px; 
 } 
 
 .slide:hover #rightp {
@@ -1573,7 +1576,7 @@ div.carousel-inner #w31 {
 
 div.carousel-inner #personal0 {
     margin-top: 22px;
-    margin-left: 350px;
+    margin-left: 400px;
     height: 710px; 
     width: 500px; 
 }
@@ -1593,7 +1596,7 @@ div.carousel-inner #personal0 {
 
 #personal1 {
     animation: film 3s; 
-    width: 1150px; 
+    width: 1600px; 
     height: 710px; 
 } 
 

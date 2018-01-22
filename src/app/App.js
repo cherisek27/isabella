@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, browserHistory, Switch } from 'react-router-dom'; 
 import Main from './components/Main';
 import Nav from './components/Nav';
+import Mininavbar from './components/Mininavbar';
 import Header from './components/Header';
 import Collections from './components/Collections';  
 import Personal from './components/Personal';

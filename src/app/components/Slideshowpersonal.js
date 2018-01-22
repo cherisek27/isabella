@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Slideshowpersonal = () => (
+const Slideshowpersonal = () => ( 
+
       <div className="main-container-personal">
-          <div className="container-personal-slideshow">
-  
+          <div className="container-personal-slideshow">  
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
   
           {/* Indicators */}
@@ -20,7 +20,7 @@ const Slideshowpersonal = () => (
           </div>
   
           <div className="item">
-              <img src="assets/images/2HotelAlahambra.jpg" id="personal1" />
+              <img src="assets/images/2 Hotel Alahambra.jpg" id="personal1" />
           </div>
   
           <div className="item">
