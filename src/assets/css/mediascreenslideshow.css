@@ -1,3 +1,29 @@
+@media only screen and (max-width: 2000px) {
+    #myCarousel {
+        width: 2000px; 
+    }
+    a.il {
+        margin-left: 900px; 
+        margin-top: 80px; 
+    }
+    div.carousel-inner #personal0 {
+          margin-left: 600px;
+          height: 1300px; 
+          width: 850px; 
+      }  
+      div.carousel-inner #personal1 {
+        height: 1300px; 
+        width: 1800px; 
+    }   
+    #leftp {
+        margin-top: 300px; 
+    } 
+    #rightp {
+        margin-top: 300px; 
+        margin-left: 60px;  
+} 
+
+/*-----------------------------------------------------*/
 @media only screen and (max-width: 1700px) {
 #myCarousel {
       width: 1700px; 
@@ -57,7 +83,22 @@
     height: 1100px; 
     width: 800px; 
     margin-left: 900px; 
+}  
+.personalcaption {
+    margin-left: -1410px; 
+    margin-top: 60px;  
 } 
+div.carousel-inner #personal11 {
+    height: 1100px; 
+    width: 800px; 
+    margin-left: 900px; 
+}  
+
+div.carousel-inner #personal12 {
+    height: 1100px; 
+    width: 800px; 
+    margin-left: 900px; 
+}  
     #leftp {
         margin-top: 190px; 
     } 

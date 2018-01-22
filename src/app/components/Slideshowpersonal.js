@@ -57,18 +57,26 @@ const Slideshowpersonal = () => (
 
           <div className="item">
               <img src="assets/images/thumbnailsP/7MattDjordjevic.jpg" id="personal10" />
+          <div className="carousel-caption">  
+              <p className="personalcaption">Matthew Djordjevic, Melrose Place</p>
+              </div> 
           </div>  
 
           <div className="item">
               <img src="assets/images/thumbnailsP/7.1MattDjordjevic.jpg" id="personal11" />
+              <div className="carousel-caption">  
+              <p className="personalcaption">Matthew Djordjevic, Melrose Place</p>
+              </div> 
           </div>  
 
           <div className="item">
               <img src="assets/images/thumbnailsP/7.2MattDjordjevic.jpg" id="personal12" />
+              <div className="carousel-caption">  
+              <p className="personalcaption">Matthew Djordjevic, Melrose Place</p>
+              </div> 
           </div> 
- 
-
-          </div>
+        
+        </div>
   
           {/* Left and right controls */}
           <a className="left carousel-control" href="#myCarousel" id="test" data-slide="prev">

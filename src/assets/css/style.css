@@ -1553,7 +1553,18 @@ div.carousel-inner #w31 {
     height: 50px; 
     visibility: hidden; 
     margin-right: -55px; 
-} 
+}  
+
+.personalcaption {
+    text-shadow: none !important; 
+    border: none;
+    color: #696969; 
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    margin-left: 80px; 
+    margin-top: 20px;  
+}
 
 .slide:hover #rightp {
     visibility: visible;
