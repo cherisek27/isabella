@@ -40,19 +40,19 @@ class Header extends Component {
                 <div className="dropdown-section" onClick={this.dropdown}>
                     <ul>
                         <li>
-                            <Link to="editorial" className="editorial" style={{ textDecoration: 'none'}} >EDITORIAL</Link>
+                            <Link to="editorial" className="editorial" style={{textDecoration:'none'}}>EDITORIAL</Link>
                         </li>
                         <li>
-                            <Link to="film" className="film" style={{ textDecoration: 'none'}}>FILM</Link>
+                            <Link to="film" className="film" style={{textDecoration:'none'}}>FILM</Link>
                         </li>
                         <li>
-                            <Link to="advertising" className="advertising" style={{ textDecoration: 'none'}}>ADVERTISING</Link>
+                            <Link to="advertising" className="advertising" style={{textDecoration:'none'}}>ADVERTISING</Link>
                         </li>
                         <li>
-                            <Link to="women" className="women" style={{ textDecoration: 'none'}}>WOMEN</Link>
+                            <Link to="women" className="women" style={{textDecoration:'none'}}>WOMEN</Link>
                         </li>
                         <li>
-                            <Link to="personal" className="personal" style={{ textDecoration: 'none'}}>PERSONAL</Link>
+                            <Link to="personal" className="personal" style={{textDecoration:'none'}}>PERSONAL</Link>
                         </li>
                     </ul>
                 </div> : null

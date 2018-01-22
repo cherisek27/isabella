@@ -18,6 +18,9 @@
         padding-top: 5px; 
         font-size: 12px;  
     }  
+    .dropdown-section{ 
+        margin-top: 30px;
+    }
     #homepageImage {
         margin-right: 400px; 
         width: 700px; 
@@ -87,5 +90,8 @@
     } 
     .border {
         margin-right: 100px; 
+    }
+    .dropdown-section{ 
+        margin-top: 10px;
     }
 }

@@ -72,11 +72,11 @@ const Slideshowpersonal = () => (
   
           {/* Left and right controls */}
           <a className="left carousel-control" href="#myCarousel" id="test" data-slide="prev">
-                  <span className="glyphicon glyphicon-menu-left" id="leftt"></span>
+                  <span className="slide"><img src="assets/images/leftArrowSlideshow.svg" id="leftp" /></span>
                   <span className="sr-only">Previous</span>
               </a>
               <a className="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span className="glyphicon glyphicon-menu-right" id="rightt"></span>
+                  <span className="slide"><img src="assets/images/rightArrowSlidshow.svg" id="rightp"/></span>
                   <span className="sr-only">Next</span>
               </a>
   

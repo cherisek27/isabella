@@ -1,5 +1,3 @@
-/*may need to do posiition fixed for the image */
-/* need to do fade out for all pages when clicking on navbar, think about what to make a home page*/
 body {
     animation: film 3s; 
     color:  #696969;  
@@ -113,17 +111,34 @@ a.il:hover {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} 
 
 .dropdown-section ul {
     list-style: none; 
     font-family: "Didot";
     font-style: italic;
-}    
-.dropdown-section ul li {
-   padding-bottom: 3px; 
 }   
 
+.dropdown-section ul li {
+    padding-bottom: 3px; 
+ }  
+
+.editorial:hover {
+        color:  #BEBEBE;
+}  
+.film:hover {
+    color:  #BEBEBE;
+}  
+.advertising:hover {
+    color:  #BEBEBE;
+}  
+.women:hover {
+    color:  #BEBEBE;
+}  
+.personal:hover {
+    color:  #BEBEBE;
+} 
+ 
 .editorial {
     animation: editorial 1s; 
     color:  #696969; 
@@ -258,7 +273,7 @@ a.il:hover {
     color:  #696969; 
     font-family: "Didot";
     font-size: 10px;  
-    margin-top: 230px; 
+    margin-top: 300px; 
     text-align: center; 
  } 
 
@@ -268,7 +283,7 @@ a.il:hover {
     color:  #696969; 
     font-family: "Didot";
     font-size: 10px;  
-    margin-top: 230px; 
+    margin-top: 300px; 
     text-align: center; 
  } 
  /* --------------- advertising page ---------------- */ 
@@ -1519,7 +1534,27 @@ div.carousel-inner #w31 {
     animation: film 4s; 
     position: fixed;
     z-index: -1;
+}  
+
+#leftp{
+    color: #000000;
+    height: 50px; 
+    visibility: hidden; 
 } 
+
+.slide:hover #leftp {
+    visibility: visible;
+}
+
+#rightp{
+    color: #000000;
+    height: 50px; 
+    visibility: hidden; 
+} 
+
+.slide:hover #rightp {
+    visibility: visible;
+}
 
 @keyframes personal-container { 
     from {
@@ -1540,7 +1575,7 @@ div.carousel-inner #personal0 {
     margin-top: 22px;
     margin-left: 350px;
     height: 710px; 
-    width: 600px; 
+    width: 500px; 
 }
 
 #personal0 {
