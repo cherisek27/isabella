@@ -3,31 +3,94 @@
         width: 2000px; 
     }
     a.il {
-        margin-left: 900px; 
+        margin-left: 800px; 
         margin-top: 80px; 
     }
     div.carousel-inner #personal0 {
-          margin-left: 600px;
+          margin-left: 500px;
           height: 1300px; 
-          width: 850px; 
+          width: 1000px; 
       }  
       div.carousel-inner #personal1 {
         height: 1300px; 
-        width: 1800px; 
+        width: 1830px; 
+    }  
+    div.carousel-inner #personal2 {
+        margin-left: 1000px; 
+        height: 1300px; 
+        width: 1000px; 
+    }  
+    div.carousel-inner #personal3 {
+        margin-left: 500px; 
+        height: 1300px; 
+        width: 1000px; 
+    }  
+    div.carousel-inner #personal4 {
+        margin-left: 130px; 
+        height: 1300px; 
+        width: 1000px; 
     }   
+    div.carousel-inner #personal5 {
+        margin-left: 130px; 
+        height: 1300px; 
+        width: 1000px; 
+    }  
+    div.carousel-inner #personal6 {
+        height: 1300px; 
+        width: 1830px; 
+    }   
+    div.carousel-inner #personal7 {
+        height: 1300px; 
+        width: 1830px; 
+    }  
+    div.carousel-inner #personal7 {
+        height: 1300px; 
+        width: 1830px; 
+    } 
+    div.carousel-inner #personal8 {
+        height: 1300px; 
+        width: 1830px; 
+    }     
+    div.carousel-inner #personal9 {
+        height: 1300px; 
+        width: 1830px; 
+    }  
+    div.carousel-inner #personal10 {
+        margin-left: 1000px; 
+        height: 1300px; 
+        width: 1000px; 
+    }  
+    div.carousel-inner #personal11 {
+        margin-left: 1000px; 
+        height: 1300px; 
+        width: 1000px; 
+    }  
+    div.carousel-inner #personal12 {
+        margin-left: 1000px; 
+        height: 1300px; 
+        width: 1000px; 
+    }   
+    .personalcaption {
+        margin-left: -1750px; 
+    } 
     #leftp {
         margin-top: 300px; 
     } 
     #rightp {
         margin-top: 300px; 
         margin-left: 60px;  
-} 
+    } 
+}
 
 /*-----------------------------------------------------*/
 @media only screen and (max-width: 1700px) {
 #myCarousel {
       width: 1700px; 
-  }
+  } 
+  a.il {
+    margin-left: 600px; 
+    margin-top: 80px; 
+}
     div.carousel-inner #personal0 {
         margin-left: 470px;
         height: 1100px; 
@@ -106,4 +169,84 @@ div.carousel-inner #personal12 {
         margin-top: 190px; 
         margin-left: 60px; 
     }
+} 
+
+/* --------------------------------------------- */ 
+@media only screen and (max-width: 1600px) {
+    #myCarousel {
+        width: 1600px; 
+    }
+    a.il {
+        margin-left: 590px; 
+    }
+    div.carousel-inner #personal0 {
+          margin-left: 400px;
+          height: 1270px; 
+          width: 800px; 
+      } 
+    div.carousel-inner #personal1 {
+        height: 1270px; 
+        width: 1460px; 
+        padding: 0px; 
+    } 
+    div.carousel-inner #personal2 {
+        margin-left: 770px; 
+        height: 1270px; 
+        width: 900px; 
+    }  
+    div.carousel-inner #personal3 {
+        margin-left: 400px; 
+        height: 1270px; 
+        width: 800px; 
+    } 
+    div.carousel-inner #personal4 {
+        height: 1270px; 
+        width: 800px; 
+    }  
+    div.carousel-inner #personal5 {
+        height: 1270px; 
+        width: 800px; 
+    } 
+    div.carousel-inner #personal6 {
+        height: 1270px; 
+        width: 1460px; 
+    }  
+    div.carousel-inner #personal7 {
+        height: 1270px; 
+        width: 1460px; 
+    }   
+    div.carousel-inner #personal8 {
+        height: 1270px; 
+        width: 1460px; 
+    }  
+    div.carousel-inner #personal9 {
+        height: 1270px; 
+        width: 1460px; 
+    } 
+    div.carousel-inner #personal10 {
+        margin-left: 800px; 
+        height: 1270px; 
+        width: 800px; 
+    }   
+    div.carousel-inner #personal11 {
+        margin-left: 800px; 
+        height: 1270px; 
+        width: 800px; 
+    }  
+    div.carousel-inner #personal12 {
+        margin-left: 800px; 
+        height: 1270px; 
+        width: 800px; 
+    }  
+    .personalcaption {
+        margin-left: -1410px; 
+        margin-top: 60px;  
+    }        
+    #leftp {
+        margin-top: 280px; 
+    } 
+    #rightp {
+        margin-top: 280px; 
+        margin-left: 60px;  
+    } 
 }

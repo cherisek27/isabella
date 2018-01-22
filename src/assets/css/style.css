@@ -89,11 +89,11 @@ body {
 
 
 a.il{
-    color: 		#484848;
+    color: 	#484848;
     font-family: "Didot";
-    font-size: 23px; 
+    font-size: 20px; 
     font-style: italic;
-    letter-spacing: 3px;  
+    letter-spacing: 10px;  
     margin-left: 500px; 
     margin-top: 45px; 
 }  
