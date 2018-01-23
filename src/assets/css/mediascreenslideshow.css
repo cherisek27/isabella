@@ -1,8 +1,7 @@
 @media only screen and (max-width: 1920px) {
-   /* #myCarousel {
+    #myCarousel {
         width: 1920px; 
-        height: 1200px; 
-    } */
+    } 
     a.il {
         margin-left: 830px; 
         margin-top: 80px; 
@@ -41,18 +40,30 @@
           width: 700px; 
     } 
     div.carousel-inner #personal1 {
-         margin-top: 50px; 
          height: 1200px; 
-         width: 1500px; 
-   }
+         width: 1700px; 
+   } 
+   .personalCaptionOne {
+       margin-left: 920px; 
+       margin-top: -210px; 
+       font-size: 13px; 
+     }
     #leftp {
         margin-top: 100px; 
         margin-left: -80px;  
     } 
     #rightp {
-        margin-top: 100px; 
-        margin-left: 10px;  
-    }   
+        margin-top: 10px; 
+        margin-left: 700px;  
+    }  
+    .carousel-control.right {
+        margin-top: 500px; 
+        margin-left: 200px; 
+    }
+    .test {
+        margin-left: -550px; 
+        margin-bottom: 20px; 
+    }  
    
      /* }  
       div.carousel-inner #personal1 {

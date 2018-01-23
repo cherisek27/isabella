@@ -1556,6 +1556,7 @@ div.carousel-inner #w31 {
     height: 50px; 
     cursor: pointer; 
     margin-right: 100px; 
+    margin-top: 200px; 
 }  
 
 .test:hover  #rightp{
@@ -1563,12 +1564,11 @@ div.carousel-inner #w31 {
 } 
 
 .test {
-    width: 30px; 
-    height: 1400px; 
-    margin-left: 700px;
+    margin-left: 1000px;
+    margin-right: 1000px; 
+    background: red; 
+    z-index: -3px; 
 }  
-
-
 
 .personalcaption {
     text-shadow: none !important; 
@@ -1581,15 +1581,15 @@ div.carousel-inner #w31 {
     margin-top: 20px;  
 }
 
-.personalcaption1 {
+.personalCaptionOne {
     text-shadow: none !important; 
     border: none;
-    color: #fff; 
+    color: blue; 
     font-family: "Didot";
     font-size: 8px;  
     font-style: italic; 
     margin-left: 500px; 
-    margin-top: 20px;  
+    margin-top: 320px;  
 }
 
 @keyframes personal-container { 

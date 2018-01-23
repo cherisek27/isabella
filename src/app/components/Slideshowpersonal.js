@@ -17,7 +17,7 @@ const Slideshowpersonal = () => (
           <div className="item">
               <img src="assets/images/2 Hotel Alahambra.jpg" id="personal1" />
               <div className="carousel-caption">  
-              <p className="personalcaption1">Alahambra Boutique Hotel, Croatia</p>
+              <p className="personalCaptionOne">Alahambra Boutique Hotel, Croatia</p>
               </div>                 
           </div>
   
