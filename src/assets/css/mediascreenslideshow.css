@@ -1,103 +1,141 @@
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 1920px) {
     #myCarousel {
-        width: 2000px; 
+        width: 1920px; 
     }
     a.il {
-        margin-left: 800px; 
+        margin-left: 830px; 
         margin-top: 80px; 
+    }
+    #homepageImage {
+        height: 1250px; 
+        width: 800px; 
+        margin-left: 300px; 
+    } 
+    .header-text {
+        margin-right: 40px; 
+    } 
+    .header-text-2{
+        margin-right: 40px; 
+    }
+    .header-text-3 {
+        margin-right: 40px; 
     }
     div.carousel-inner #personal0 {
           margin-left: 500px;
-          height: 1300px; 
+          height: 1250px; 
           width: 1000px; 
       }  
       div.carousel-inner #personal1 {
-        height: 1300px; 
-        width: 1830px; 
+        height: 1250px; 
+        width: 1730px; 
     }  
     div.carousel-inner #personal2 {
         margin-left: 1000px; 
-        height: 1300px; 
+        height: 1250px; 
         width: 1000px; 
     }  
     div.carousel-inner #personal3 {
         margin-left: 500px; 
-        height: 1300px; 
+        height: 1250px; 
         width: 1000px; 
     }  
     div.carousel-inner #personal4 {
         margin-left: 130px; 
-        height: 1300px; 
+        height: 1250px; 
         width: 1000px; 
     }   
     div.carousel-inner #personal5 {
         margin-left: 130px; 
-        height: 1300px; 
+        height: 1250px; 
         width: 1000px; 
     }  
     div.carousel-inner #personal6 {
-        height: 1300px; 
-        width: 1830px; 
+        height: 1250px; 
+        width: 1730px; 
     }   
     div.carousel-inner #personal7 {
-        height: 1300px; 
-        width: 1830px; 
+        height: 1250px; 
+        width: 1730px; 
     }  
-    div.carousel-inner #personal7 {
-        height: 1300px; 
-        width: 1830px; 
+    div.carousel-i5ner #personal7 {
+        height: 1250px; 
+        width: 1730px; 
     } 
     div.carousel-inner #personal8 {
-        height: 1300px; 
-        width: 1830px; 
+        height: 1250px; 
+        width: 1730px; 
     }     
     div.carousel-inner #personal9 {
-        height: 1300px; 
-        width: 1830px; 
+        height: 1250px; 
+        width: 1730px; 
     }  
     div.carousel-inner #personal10 {
         margin-left: 1000px; 
-        height: 1300px; 
+        height: 1250px; 
         width: 1000px; 
     }  
     div.carousel-inner #personal11 {
         margin-left: 1000px; 
-        height: 1300px; 
+        height: 1250px; 
         width: 1000px; 
     }  
     div.carousel-inner #personal12 {
         margin-left: 1000px; 
-        height: 1300px; 
+        height: 1250px; 
         width: 1000px; 
     }   
     .personalcaption {
         margin-left: -1750px; 
+        margin-top: -50px; 
     } 
     #leftp {
         margin-top: 300px; 
+        margin-left: -80px;  
     } 
     #rightp {
         margin-top: 300px; 
-        margin-left: 60px;  
+        margin-left: -30px;  
+    }  
+    /* publications */ 
+    .publications-container {
+        margin-top: 800px; 
+        margin-left: 500px; 
     } 
+    .border {
+        margin-right: 200px; 
+    }
 }
 
 /*-----------------------------------------------------*/
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1680px) {
 #myCarousel {
-      width: 1700px; 
+      width: 1680px; 
   } 
   a.il {
-    margin-left: 600px; 
+    margin-left: 615px; 
     margin-top: 80px; 
+} 
+#homepageImage {
+    height: 1250px; 
+    width: 750px; 
+    margin-left: -170px; 
+} 
+.header-text {
+    margin-right: 125px; 
+} 
+.header-text-2{
+    margin-right: 80px; 
+}
+.header-text-3 {
+    margin-right: 80px; 
 }
     div.carousel-inner #personal0 {
         margin-left: 470px;
-        height: 1100px; 
+        height: 1250px; 
         width: 800px; 
     } 
      div.carousel-inner #personal1 {
-        height: 1100px; 
+        height: 1250px; 
         width: 1550px; 
     } 
     div.carousel-inner #personal2 {
@@ -169,17 +207,38 @@ div.carousel-inner #personal12 {
         margin-top: 190px; 
         margin-left: 60px; 
     }
+    /* publications page */ 
+    .publications-container {
+        margin-left: 300px; 
+        margin-top: 700px; 
+    } 
+    .border {
+        margin-right: 200px; 
+    }
 } 
 
 /* ---------------------------------------------------------------- */ 
 @media only screen and (max-width: 1600px) {
-    #myCarousel {
-        width: 1600px; 
-    }
     a.il {
         margin-left: 590px; 
     }
-    div.carousel-inner #personal0 {
+    #homepageImage {
+        height: 1250px; 
+        margin-left: 60px; 
+    } 
+    .header-text {
+        margin-right: 20px; 
+    } 
+    .header-text-2{
+        margin-right: 20px; 
+    }
+    .header-text-3 {
+        margin-right: 20px; 
+    } 
+    #myCarousel {
+        width: 1600px; 
+    }
+   /* div.carousel-inner #personal0 {
           margin-left: 400px;
           height: 1270px; 
           width: 800px; 
@@ -244,16 +303,40 @@ div.carousel-inner #personal12 {
     }        
     #leftp {
         margin-top: 280px; 
+        margin-left: 10px; 
     } 
     #rightp {
         margin-top: 280px; 
-        margin-left: 60px;  
+        margin-left: 10px;  
     } 
+     /* publications page */ 
+     .publications-container {
+        margin-left: 200px; 
+    } 
+    .border {
+        margin-right: 200px; 
+    }
 } 
 
 /* ---------------------------------------------------- */ 
 @media only screen and (max-width: 1440px) {
-    #myCarousel {
+    a.il {
+        margin-left: 590px; 
+    }
+    #homepageImage {
+        height: 1250px; 
+        margin-left: -100px; 
+    } 
+    .header-text {
+        margin-right: 20px; 
+    } 
+    .header-text-2{
+        margin-right: 20px; 
+    }
+    .header-text-3 {
+        margin-right: 20px; 
+    } 
+   /* #myCarousel {
         width: 1440px; 
     }
     a.il {
@@ -329,7 +412,15 @@ div.carousel-inner #personal12 {
 #rightp {
     margin-top: 30px; 
     margin-left: 20px;  
+    } */
+     /* publications page */ 
+     .publications-container {
+        margin-left: 100px; 
+        margin-top: 600px; 
     } 
+    .border {
+        margin-right: 200px; 
+    }
 } 
 
 /* ----------------------------------------------- */ 
@@ -353,6 +444,42 @@ div.carousel-inner #personal12 {
         margin-left: 785px; 
         height: 980px; 
         width: 500px; 
+    }  
+    div.carousel-inner #personal3 {
+        margin-left: 390px; 
+        height: 980px; 
+        width: 500px; 
+    }  
+    div.carousel-inner #personal4 {
+        margin-left: 785px; 
+        height: 980px; 
+        width: 500px; 
+    } 
+    div.carousel-inner #personal4 {
+        margin-left: 80px; 
+        height: 980px; 
+        width: 500px; 
+    } 
+    div.carousel-inner #personal5 {
+        margin-left: 80px; 
+        height: 980px; 
+        width: 500px; 
+    }  
+    div.carousel-inner #personal6 {
+        height: 980px; 
+        width: 1150px; 
+    }  
+    div.carousel-inner #personal7 {
+        height: 980px; 
+        width: 1150px; 
+    } 
+    div.carousel-inner #personal8 {
+        height: 980px; 
+        width: 1150px; 
+    } 
+    div.carousel-inner #personal9 {
+        height: 980px; 
+        width: 1150px; 
     } 
     div.carousel-inner #personal10 {
         margin-left: 785px; 
@@ -375,11 +502,20 @@ div.carousel-inner #personal12 {
     } 
 #leftp {
     margin-top: 10px; 
+    margin-left: -100px; 
 } 
 #rightp {
     margin-top: 10px; 
     margin-left: 10px;  
     } 
+     /* publications page */ 
+     .publications-container {
+        margin-left: 50px; 
+        margin-top: 400px; 
+    } 
+    .border {
+        margin-right: 200px; 
+    }
 } 
 
 /* ----------------------------------------------- */ 
