@@ -1,4 +1,4 @@
-const images = [ { src: '../assets/images/1allieleggett.jpg', position: 'left edge', caption: 'This just a test', captionPosition: 'caption-right', style: {'width': '700px'} },
+const images = [ { src: '../assets/images/1allieleggett.jpg', position: 'left edge', caption: 'Allie Leggett,London', captionPosition: 'caption-right', style: {'width': '700px'} },
 { src: '../assets/images/1.1AllieLeggett.jpg',
   position: 'right' },
 { src: '../assets/images/2AlanaHadid.jpg', position: 'full' },

@@ -3,11 +3,11 @@ body {
     color:  #696969; 
     margin: auto;
 } 
-#root {
+/*#root {
     max-width: 1300px;
     width: 100%;
     margin: auto;
-}
+}*/
 
 @keyframes body { 
     from {
@@ -547,6 +547,7 @@ div.carousel-inner #ads6 {
     flex-wrap: wrap; 
     margin-top: 70px;
     padding-bottom: 15px; 
+    cursor: pointer;
 }
 
  .image-grid .box { 
@@ -2080,7 +2081,14 @@ div.carousel-inner #personal12 {
 
 .each .caption {
     margin-top: 40%;
-    font-size: 16px;
+    font-size: 16px; 
+
+ 
+    color: #696969; 
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    margin-left: 550px; 
 }
 
 .each p.caption.left {
@@ -2125,10 +2133,7 @@ div.carousel-inner #personal12 {
 .each .image-holder img {
     max-height: 100vh;
     /*width: 100%;*/
-    /* I'm kind of out of ideas, are you there?* yeah so, so should I try to style the image in like photoshop first?
-    ok yes, that can help, you may need to crop the picture so that the height will reduce. ok man I wish i could jus style a few of them just to have a larger width. One more question. what will i do
-    about the media queries portion for larger screens?
-    hmmnn the responsiveness right? yes... That'll be a bit of work especialy for mobile
+    /* 
 
     what you can do for bigger screens is set a maximum width on the main wrapping div
     e.g max-width: 1200px; width: 100% margin: auto

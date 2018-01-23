@@ -7,8 +7,8 @@
     }
   
     a.il {
-        margin-left: 785px; 
-        margin-top: 80px; 
+        margin-left: 750px; 
+        margin-top: 60px; 
     }
     #homepageImage {
         height: 1000px; 
@@ -254,8 +254,36 @@ div.carousel-inner #personal12 {
     .border {
         margin-right: 400px; 
     }
+} 
+/* ----------------------------------------------  womens page ----------------------------- * /  
+/* ---------- */ 
+.image-grid  {
+    padding-top: 80px; 
+    width: 70%; 
+    margin: auto; 
+}  
+
+#root {
+    max-width: 1920px;
+} 
+
+.each .caption {
+    margin-top: 48%; 
+    font-size: 13px; 
+} 
+
+.each p.caption.right {
+    margin-right: 50px;
 }
 
+
+.gallery-popup .nav.arrow-right {
+    right: 50px;
+}
+
+.gallery-popup .nav.arrow-left {
+    left: 50px;
+}
 /*-----------------------------------------------------*/
 @media only screen and (max-width: 1680px) {
 #myCarousel {
