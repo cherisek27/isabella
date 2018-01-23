@@ -430,7 +430,7 @@ div.carousel-inner #personal12 {
     a.il {
         margin-left: 480px; 
         margin-top: 70px; 
-    }
+    } 
     #homepageImage {
         height: 800px; 
         width: 500px; 
@@ -449,7 +449,10 @@ div.carousel-inner #personal12 {
         margin-left:  -80px; 
         margin-top: 400px; 
     } 
-}
+} 
+
+/* ----------------------------------------------- */ 
+
 /*------------------------------------------------*/
 @media only screen and (max-width: 1300px) {
     a.il {
@@ -578,18 +581,18 @@ div.carousel-inner #personal12 {
         margin-top: 70px; 
     }
     #homepageImage {
-        height: 700px; 
+        height: 640px; 
         width: 480px; 
         margin-left: -100px; 
     } 
     .header-text {
-        margin-right: 100px; 
+        margin-right: -10px; 
     }
     .header-text-2 {
-        margin-right: 90px; 
+        margin-right: -10px; 
     }
     .header-text-3 {
-        margin-right: 90px; 
+        margin-right: -10px; 
     }  
     .publications-container {
         margin-left: -100px; 
