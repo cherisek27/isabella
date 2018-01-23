@@ -98,11 +98,11 @@
     }  
     /* publications */ 
     .publications-container {
-        margin-top: 800px; 
-        margin-left: 500px; 
+        margin-top: 600px; 
+        margin-left: 300px; 
     } 
     .border {
-        margin-right: 200px; 
+        margin-right: 400px; 
     }
 }
 
@@ -112,13 +112,13 @@
       width: 1680px; 
   } 
   a.il {
-    margin-left: 615px; 
+    margin-left: 600px; 
     margin-top: 80px; 
 } 
 #homepageImage {
     height: 1000px; 
     width: 750px; 
-    margin-left: 285px; 
+    margin-left: 273px; 
 } 
 .header-text {
     margin-right: 80px; 
@@ -209,11 +209,11 @@ div.carousel-inner #personal12 {
     }
     /* publications page */ 
     .publications-container {
-        margin-left: 300px; 
-        margin-top: 700px; 
+        margin-left: 200px; 
+        margin-top: 500px; 
     } 
     .border {
-        margin-right: 200px; 
+        margin-right: 350px; 
     }
 } 
 
@@ -223,18 +223,18 @@ div.carousel-inner #personal12 {
         margin-left: 630px; 
     }
     #homepageImage {
-        height: 1000px; 
+        height: 900px; 
         margin-left: 300px; 
-        width: 700px; 
+        width: 650px; 
     } 
     .header-text {
-        margin-right: 20px; 
+        margin-right: 70px; 
     } 
     .header-text-2{
-        margin-right: 20px; 
+        margin-right: 70px; 
     }
     .header-text-3 {
-        margin-right: 20px; 
+        margin-right: 70px; 
     } 
     #myCarousel {
         width: 1600px; 
@@ -418,7 +418,7 @@ div.carousel-inner #personal12 {
      /* publications page */ 
      .publications-container {
         margin-left: 100px; 
-        margin-top: 600px; 
+        margin-top: 500px; 
     } 
     .border {
         margin-right: 200px; 
@@ -435,6 +435,7 @@ div.carousel-inner #personal12 {
         height: 800px; 
         width: 500px; 
         margin-left: -50px; 
+        margin-bottom: 0px; 
     } 
     .header-text {
         margin-right: 60px; 
@@ -449,8 +450,23 @@ div.carousel-inner #personal12 {
         margin-left:  -80px; 
         margin-top: 400px; 
     } 
-} 
+}  
 
+/* ----------------------------------------------- */ 
+@media only screen and (max-width: 1280px) {
+    #homepageImage {
+        height: 1024px; 
+        width: 700px; 
+        margin-left: -50px;  
+    }
+    .main-container-header {
+        height: 1100px; 
+    } 
+    .publications-container {
+        margin-left:  -80px; 
+        margin-top: 400px; 
+    } 
+}
 /* ----------------------------------------------- */ 
 
 /*------------------------------------------------*/
@@ -595,6 +611,19 @@ div.carousel-inner #personal12 {
         margin-right: -10px; 
     }  
     .publications-container {
+        margin-left: -100px; 
+    } 
+} 
+
+/* ----------------------------------------------- */ 
+@media only screen and (max-width: 1024px) { 
+    a.il {
+        margin-left: 310px; 
+        margin-top: 70px; 
+    }
+    #homepageImage {
+        height: 768px; 
+        width: 480px; 
         margin-left: -100px; 
     } 
 }
