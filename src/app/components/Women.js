@@ -68,10 +68,10 @@ class Women extends Component {
 
               </div>
               <div onClick={() => this.navigate('prev')} className="nav arrow-left">
-                <img src="../assets/images/thumb/arrow-left.png" />
+                <img src="../assets/images/leftArrowSlideshow.svg" id="leftArrow" />
               </div>
               <div onClick={() => this.navigate('next')}  className="nav arrow-right">
-                <img src="../assets/images/thumb/arrow-right.png" />
+                <img src="../assets/images/rightArrowSlidshow.svg" id="rightArrow" />
               </div>
             </div>)
         }

@@ -7,43 +7,109 @@
     }
   
     a.il {
-        margin-left: 820px; 
+        margin-left: 785px; 
         margin-top: 80px; 
     }
     #homepageImage {
         height: 1000px; 
         width: 800px; 
-        margin-left: 500px; 
+        margin-left: 450px; 
     } 
     .header-text {
-        margin-right: 40px; 
+        margin-right: 90px; 
     } 
     .header-text-2{
-        margin-right: 40px; 
+        margin-right: 90px; 
     }
     .header-text-3 {
-        margin-right: 40px; 
+        margin-right: 90px; 
     }
-    /* advertising ---------------------------------- */ 
-    .main-container-ads {
-        height: 1200px; 
-        width: 1920px; 
-    }
-    #ads0 {
+    /* advertising ---------------------------------------------------------------- */ 
+    #lefta {
+        margin-top: 100px; 
+        margin-left: -80px;  
+    } 
+  #righta {
+        margin-top: 10px; 
+        margin-left: 700px; 
+
+    }  
+    .carousel-control.right {
+        margin-top: 500px; 
+        
+    } 
+
+  .test {
+        margin-left: -550px; 
+        margin-bottom: 20px; 
+    }  
+  
+    div.carousel-inner #ads0 {
         height: 1000px; 
-        margin-left: 500px; 
-    }
-/* personal -------------------------------------------- */
+        margin-left: 1100px; 
+    } 
+
+    .adscaption {
+        margin-left: -740px; 
+        margin-bottom: 150px; 
+        font-size: 13px; 
+    }  
+    .adscaption1 {
+        margin-left: -820px; 
+        margin-bottom: 150px; 
+        font-size: 13px; 
+    } 
+    div.carousel-inner #ads1 {
+        height: 1000px; 
+        width: 700px; 
+        margin-left: 1050px; 
+    }  
+    div.carousel-inner #ads1 {
+        height: 1000px; 
+        width: 700px; 
+        margin-left: 1060px; 
+    }  
+    div.carousel-inner #ads2 {
+        height: 1000px; 
+        width: 700px; 
+        margin-left: 1060px; 
+    } 
+    div.carousel-inner #ads3 {
+        height: 1000px; 
+        width: 700px; 
+        margin-left: 1060px; 
+    }  
+     div.carousel-inner #ads4 {
+        height: 1000px; 
+        width: 700px; 
+        margin-left: 1060px; 
+    } 
+    div.carousel-inner #ads5 {
+        height: 1000px; 
+        width: 700px; 
+        margin-left: 1060px; 
+    } 
+    div.carousel-inner #ads6 {
+        height: 1000px; 
+        width: 700px; 
+        margin-left: 1060px; 
+    } 
+    div.carousel-inner #ads7 {
+        height: 1000px; 
+        width: 700px; 
+        margin-left: 1060px; 
+    } 
+/* personal --------------------------------------------------------------- */
 
 
     div.carousel-inner #personal0 {
           margin-top: 50px; 
-          margin-left: 500px;
+          margin-left: 550px;
           height: 1200px; 
           width: 700px; 
     }  
     .personalCaptionZero {
-        margin-left: 130px; 
+        margin-left: 180px; 
         margin-top: -250px; 
         font-size: 13px; 
       }

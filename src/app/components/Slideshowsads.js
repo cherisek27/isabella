@@ -19,14 +19,14 @@ const Slideshowsads = () => (
                 <div className="item">
                     <img src="assets/images/thumbnailsads/1.1Tylynn.jpg" id="ads1" />
                         <div className="carousel-caption">
-                            <p className="adscaption">Tylynn Nguyen FW17 Campaign</p>
+                            <p className="adscaption1">Tylynn Nguyen FW17 Campaign</p>
                         </div>
                 </div>
               
                  <div className="item">
                     <img src="assets/images/thumbnailsads/1.2Tylynn.jpg" id="ads2" />
                          <div className="carousel-caption">
-                           <p className="adscaption" style={{'fontfamily': 'Didot'}}>Tylynn Nguyen FW17 Campaign</p>
+                           <p className="adscaption1" style={{'fontfamily': 'Didot'}}>Tylynn Nguyen FW17 Campaign</p>
                          </div> 
                  </div>  
 
@@ -34,28 +34,28 @@ const Slideshowsads = () => (
                  <div className="item">
                     <img src="assets/images/thumbnailsads/1.3Tylynn.jpg" id="ads3" />
                          <div className="carousel-caption">
-                         <p className="adscaption">Tylynn Nguyen FW17 Campaign</p>
+                         <p className="adscaption1">Tylynn Nguyen FW17 Campaign</p>
                          </div> 
                  </div> 
     
                  <div className="item">
                     <img src="assets/images/thumbnailsads/1.4Tylynn.jpg" id="ads4" />
                          <div className="carousel-caption">
-                         <p className="adscaption">Tylynn Nguyen FW17 Campaign</p>
+                         <p className="adscaption1">Tylynn Nguyen FW17 Campaign</p>
                          </div> 
                  </div> 
            
                  <div className="item">
                     <img src="assets/images/thumbnailsads/1.5Tylynn.jpg"  id="ads5" />
                         <div className="carousel-caption">
-                        <p className="adscaption">Tylynn Nguyen FW17 Campaign</p>   
+                        <p className="adscaption1">Tylynn Nguyen FW17 Campaign</p>   
                         </div> 
                  </div> 
                   
                  <div className="item">
                     <img src="assets/images/thumbnailsads/1.6Tylynn.jpg"  id="ads6" />
                         <div className="carousel-caption">
-                        <p className="adscaption">Tylynn Nguyen FW17 Campaign</p>    
+                        <p className="adscaption1">Tylynn Nguyen FW17 Campaign</p>    
                         </div> 
                  </div>
             
@@ -63,11 +63,11 @@ const Slideshowsads = () => (
       
               {/* Left and right controls */}
               <a className="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span className="glyphicon glyphicon-menu-left"></span>
+                  <span className="slide"><img src="assets/images/leftArrowSlideshow.svg" id="lefta" /></span>
                   <span className="sr-only">Previous</span>
               </a>
               <a className="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span className="glyphicon glyphicon-menu-right"></span>
+                  <span className="test"><img src="assets/images/rightArrowSlidshow.svg" id="righta" /></span>
                   <span className="sr-only">Next</span>
               </a>
       
