@@ -6,12 +6,7 @@ const Slideshowpersonal = () => (
           <div className="container-personal-slideshow">  
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
   
-          {/* Indicators */}
-          {/*<ol className="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>*/}
+
   
           {/* Wrapper for slides */}
           <div className="carousel-inner">
@@ -21,6 +16,9 @@ const Slideshowpersonal = () => (
   
           <div className="item">
               <img src="assets/images/2 Hotel Alahambra.jpg" id="personal1" />
+              <div className="carousel-caption">  
+              <p className="personalcaption1">Alahambra Boutique Hotel, Croatia</p>
+              </div>                 
           </div>
   
           <div className="item">
@@ -79,12 +77,12 @@ const Slideshowpersonal = () => (
         </div>
   
           {/* Left and right controls */}
-          <a className="left carousel-control" href="#myCarousel" id="test" data-slide="prev">
+          <a className="left carousel-control" href="#myCarousel" data-slide="prev">
                   <span className="slide"><img src="assets/images/leftArrowSlideshow.svg" id="leftp" /></span>
                   <span className="sr-only">Previous</span>
               </a>
               <a className="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span className="slide"><img src="assets/images/rightArrowSlidshow.svg" id="rightp"/></span>
+                  <span className="test"><img src="assets/images/rightArrowSlidshow.svg" id="rightp" /></span>
                   <span className="sr-only">Next</span>
               </a>
   
@@ -93,6 +91,6 @@ const Slideshowpersonal = () => (
       </div>
   )
   
-export default Slideshowpersonal
+export default Slideshowpersonal;
 
 

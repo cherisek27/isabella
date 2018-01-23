@@ -1,7 +1,8 @@
 @media only screen and (max-width: 1920px) {
-    #myCarousel {
+   /* #myCarousel {
         width: 1920px; 
-    }
+        height: 1200px; 
+    } */
     a.il {
         margin-left: 830px; 
         margin-top: 80px; 
@@ -20,11 +21,40 @@
     .header-text-3 {
         margin-right: 40px; 
     }
+    /* advertising ---------------------------------- */ 
+    .main-container-ads {
+        height: 1200px; 
+        width: 1920px; 
+    }
+    #ads0 {
+        height: 1000px; 
+        margin-left: 500px; 
+    }
+/* personal -------------------------------------------- */
+    carousel-inner-p {
+        height: 1200px; 
+}
     div.carousel-inner #personal0 {
-          margin-left: 500px;
-          height: 1250px; 
-          width: 1000px; 
-      }  
+         margin-top: 50px; 
+          margin-left: 700px;
+          height: 1200px; 
+          width: 700px; 
+    } 
+    div.carousel-inner #personal1 {
+         margin-top: 50px; 
+         height: 1200px; 
+         width: 1500px; 
+   }
+    #leftp {
+        margin-top: 100px; 
+        margin-left: -80px;  
+    } 
+    #rightp {
+        margin-top: 100px; 
+        margin-left: 10px;  
+    }   
+   
+     /* }  
       div.carousel-inner #personal1 {
         height: 1250px; 
         width: 1730px; 
@@ -88,14 +118,7 @@
         margin-left: -1750px; 
         margin-top: -50px; 
     } 
-    #leftp {
-        margin-top: 300px; 
-        margin-left: -80px;  
-    } 
-    #rightp {
-        margin-top: 300px; 
-        margin-left: -30px;  
-    }  
+   */
     /* publications */ 
     .publications-container {
         margin-top: 600px; 
