@@ -12,17 +12,17 @@
     }
     #homepageImage {
         height: 1000px; 
-        width: 800px; 
+        width: 750px; 
         margin-left: 450px; 
     } 
     .header-text {
-        margin-right: 90px; 
+        margin-right: 140px; 
     } 
     .header-text-2{
-        margin-right: 90px; 
+        margin-right: 140px; 
     }
     .header-text-3 {
-        margin-right: 90px; 
+        margin-right: 140px; 
     }
     /* advertising ---------------------------------------------------------------- */ 
     #lefta {
@@ -110,7 +110,7 @@
     }  
     .personalCaptionZero {
         margin-left: 180px; 
-        margin-top: -250px; 
+        margin-top: -290px; 
         font-size: 13px; 
       }
     div.carousel-inner #personal1 {
@@ -215,7 +215,7 @@ div.carousel-inner #personal12 {
 
 .personalCaptionOne {
        margin-left: 220px; 
-       margin-top: -40px; 
+       margin-top: -300px; 
        font-size: 13px; 
 } 
 
@@ -225,27 +225,30 @@ div.carousel-inner #personal12 {
     font-size: 13px; 
 }
 
-    #leftp {
+ #leftp {
         margin-top: 100px; 
         margin-left: -80px;  
     } 
   #rightp {
         margin-top: 10px; 
-        margin-left: 700px; 
+        margin-left: 1200px; 
 
     }  
     .carousel-control.right {
-        margin-top: 500px; 
+        margin-top: 350px; 
         
     } 
 
-
   .test {
-        margin-left: -550px; 
-        margin-bottom: 20px; 
+        margin-left: 50px; 
+        margin-bottom: 1px; 
     }  
   
-  
+
+
+
+
+
     /* publications */ 
     .publications-container {
         margin-top: 600px; 
@@ -292,34 +295,135 @@ div.carousel-inner #personal12 {
     margin-right: 30px;
 } 
 
-}
+} 
+
+
+
+
+
+
 /*------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 1680px) {
 #myCarousel {
       width: 1680px; 
   } 
   a.il {
-    margin-left: 600px; 
+    margin-left: 610px; 
     margin-top: 80px; 
 } 
 #homepageImage {
     height: 1000px; 
-    width: 750px; 
+    width: 700px; 
     margin-left: 273px; 
 } 
 .header-text {
-    margin-right: 80px; 
+    margin-right: 140px; 
 } 
 .header-text-2{
-    margin-right: 80px; 
+    margin-right: 140px; 
 }
 .header-text-3 {
-    margin-right: 80px; 
+    margin-right: 140px; 
+} 
+/* ------------------------------------- advertising --------------------------- */
+
+  
+div.carousel-inner #ads0 {
+    height: 1000px; 
+    margin-left: 900px; 
+} 
+  
+div.carousel-inner #ads1 {
+    height: 1000px; 
+    margin-left: 860px; 
+    width: 700px; 
+}  
+.adscaption {
+    margin-left: -1000px; 
+    margin-bottom: 150px; 
+    font-size: 13px; 
+} 
+
+.adscaption1 {
+    margin-left: -1100px; 
+    margin-bottom: 150px; 
+    font-size: 13px; 
+}   
+
+div.carousel-inner #ads2 {
+    height: 1000px; 
+    margin-left: 860px; 
+    width: 700px; 
+}  
+
+div.carousel-inner #ads3 {
+    height: 1000px; 
+    margin-left: 860px; 
+    width: 700px; 
+}  
+
+div.carousel-inner #ads4 {
+    height: 1000px; 
+    margin-left: 860px; 
+    width: 700px; 
+}  
+
+div.carousel-inner #ads5 {
+    height: 1000px; 
+    margin-left: 860px; 
+    width: 700px; 
+}  
+
+div.carousel-inner #ads6 {
+    height: 1000px; 
+    margin-left: 860px; 
+    width: 700px; 
+}  
+/* ---------------------------- womens page -----------------------------------*/
+.image-grid  {
+    padding-top: 80px; 
+    width: 80%; 
+    margin: auto; 
+}  
+
+#root {
+    max-width: 1680px;
+} 
+
+.each .caption {
+    margin-top: 48%; 
+    font-size: 13px; 
+} 
+
+.each p.caption.right {
+    margin-right: 50px;
 }
+
+
+.gallery-popup .nav.arrow-right {
+    right: 90px;
+}
+
+.gallery-popup .nav.arrow-left {
+    left: 90px;
+}  
+
+.gallery-popup .gallery-wrapper .image-holder.right {
+    margin-right: 200px;
+}
+ 
+.each p.caption.right {
+    margin-right: 30px;
+} 
+
+
+
+
+/* ------------------------------------------------------ personal ------------------------------ */
     div.carousel-inner #personal0 {
         margin-left: 470px;
         height: 1250px; 
-        width: 800px; 
+        width: 700px; 
     } 
      div.carousel-inner #personal1 {
         height: 1250px; 
@@ -328,8 +432,7 @@ div.carousel-inner #personal12 {
     div.carousel-inner #personal2 {
         margin-left: 900px;  
         height: 1100px; 
-        width: 1040px; 
-        padding: 0px; 
+        width: 700px; 
     } 
     div.carousel-inner #personal3 {
         margin-left: 460px;  
@@ -373,8 +476,8 @@ div.carousel-inner #personal12 {
     margin-left: 900px; 
 }  
 .personalcaption {
-    margin-left: -1410px; 
-    margin-top: 60px;  
+    margin-left: -1310px; 
+    margin-bottom: 100px;  
 } 
 div.carousel-inner #personal11 {
     height: 1100px; 
@@ -387,12 +490,16 @@ div.carousel-inner #personal12 {
     width: 800px; 
     margin-left: 900px; 
 }  
+.carousel-control.right {
+    margin-top: 590px; 
+    
+} 
     #leftp {
         margin-top: 190px; 
     } 
     #rightp {
-        margin-top: 190px; 
-        margin-left: 60px; 
+        margin-top: 10px; 
+        margin-left: 100px; 
     }
     /* publications page */ 
     .publications-container {
