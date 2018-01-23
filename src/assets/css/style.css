@@ -95,7 +95,7 @@ a.il{
     font-family: "Didot";
     font-size: 20px; 
     font-style: italic;
-    letter-spacing: 8px;  
+    letter-spacing: 6px;  
     margin-left: 500px; 
     margin-top: 45px; 
 }  
@@ -1584,12 +1584,23 @@ div.carousel-inner #w31 {
 .personalCaptionOne {
     text-shadow: none !important; 
     border: none;
-    color: blue; 
+    color: #fff; 
     font-family: "Didot";
     font-size: 8px;  
     font-style: italic; 
     margin-left: 500px; 
     margin-top: 320px;  
+} 
+
+.personalCaptionZero {
+    text-shadow: none !important; 
+    border: none;
+    color: #696969; 
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    margin-left: -200px; 
+    margin-top: -70px;  
 }
 
 @keyframes personal-container { 

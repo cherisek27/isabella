@@ -3,7 +3,7 @@
         width: 1920px; 
     } 
     a.il {
-        margin-left: 830px; 
+        margin-left: 820px; 
         margin-top: 80px; 
     }
     #homepageImage {
@@ -34,15 +34,48 @@
         height: 1200px; 
 }
     div.carousel-inner #personal0 {
-         margin-top: 50px; 
-          margin-left: 700px;
+          margin-top: 50px; 
+          margin-left: 500px;
           height: 1200px; 
           width: 700px; 
-    } 
+    }  
+    .personalCaptionZero {
+        margin-left: 830px; 
+        margin-top: -250px; 
+        font-size: 13px; 
+      }
     div.carousel-inner #personal1 {
          height: 1200px; 
-         width: 1700px; 
+         width: 1750px; 
    } 
+   div.carousel-inner #personal2 {
+    margin-top: 50px; 
+    margin-left: 1215px; 
+    height: 1200px; 
+    width: 800px; 
+} 
+div.carousel-inner #personal3 {
+    margin-top: 50px; 
+    margin-left: 600px; 
+    height: 1200px; 
+    width: 700px; 
+}  
+div.carousel-inner #personal4 {
+    margin-top: 50px; 
+    margin-left: 160px;
+    height: 1200px; 
+    width: 800px; 
+}  
+div.carousel-inner #personal5 {
+    margin-top: 50px; 
+    margin-left: 160px;
+    height: 1200px; 
+    width: 800px; 
+}  
+div.carousel-inner #personal6 {
+    height: 1200px; 
+    width: 1750px; 
+} 
    .personalCaptionOne {
        margin-left: 920px; 
        margin-top: -210px; 

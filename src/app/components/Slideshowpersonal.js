@@ -11,7 +11,10 @@ const Slideshowpersonal = () => (
           {/* Wrapper for slides */}
           <div className="carousel-inner">
           <div className="item active">
-              <img src="assets/images/1JessicaandMaxim.jpg" id="personal0" />
+              <img src="assets/images/1JessicaandMaxim.jpg" id="personal0" /> 
+              <div className="carousel-caption">  
+              <p className="personalCaptionZero">Jessica Oversier, Maxim Nazarow - Love in the Afternoon </p>
+              </div>   
           </div>
   
           <div className="item">
@@ -23,6 +26,9 @@ const Slideshowpersonal = () => (
   
           <div className="item">
               <img src="assets/images/3Christian andAndrea.jpg" id="personal2" />
+              <div className="carousel-caption">  
+              <p className="personalCaptionTwo">Christian Santamaria,Andrea Schepers,London</p>
+              </div>  
           </div> 
 
           <div className="item">
