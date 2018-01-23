@@ -27,56 +27,56 @@ const Slideshowpersonal = () => (
           <div className="item">
               <img src="assets/images/3Christian andAndrea.jpg" id="personal2" />
               <div className="carousel-caption">  
-              <p className="personalCaptionTwo">Christian Santamaria,Andrea Schepers,London</p>
+              <p className="personalCaptionTwo">Christian Santamaria, Andrea Schepers, London</p>
               </div>  
           </div> 
 
           <div className="item">
               <img src="assets/images/4MaximNazarov.jpg" id="personal3" /> 
               <div className="carousel-caption">  
-              <p className="personalCaptionThree">Maxim Nazarov,London</p>
+              <p className="personalCaptionThree">Maxim Nazarov, London</p>
               </div>  
           </div> 
 
           <div className="item">
               <img src="assets/images/5JaceyandAnya.jpg" id="personal4" />
               <div className="carousel-caption">  
-              <p className="personalCaptionFour">Jacey Ethalion,Anya Baker,London</p>
+              <p className="personalCaptionFour">Jacey Ethalion, Anya Baker, London</p>
               </div>  
           </div>  
 
           <div className="item">
               <img src="assets/images/5.1JaceyandAnya.jpg" id="personal5" /> 
                  <div className="carousel-caption">  
-              <p className="personalCaptionFive">Jacey Ethalion,Anya Baker,London</p>
+              <p className="personalCaptionFive">Jacey Ethalion, Anya Baker, London</p>
               </div>  
           </div> 
 
           <div className="item">
               <img src="assets/images/thumbnailsP/6privatesociety.jpg" id="personal6" />
               <div className="carousel-caption">  
-              <p className="personalCaptionSix">Gabrielle Caunesil,Georgina Grace - A Private Society</p>
+              <p className="personalCaptionSix">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
               </div>  
           </div>  
 
           <div className="item">
               <img src="assets/images/thumbnailsP/6.1privatesociety.jpg" id="personal7" />
               <div className="carousel-caption">  
-              <p className="personalCaptionSeven">Gabrielle Caunesil,Georgina Grace - A Private Society</p>
+              <p className="personalCaptionSeven">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
               </div>  
           </div>   
 
           <div className="item">
               <img src="assets/images/thumbnailsP/6.2privatesociety_.jpg" id="personal8" />
               <div className="carousel-caption">  
-              <p className="personalCaptionSeven">Gabrielle Caunesil,Georgina Grace - A Private Society</p>
+              <p className="personalCaptionSeven">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
               </div>  
           </div>  
 
           <div className="item">
               <img src="assets/images/thumbnailsP/6.3privatesociety.jpg" id="personal9" />
               <div className="carousel-caption">  
-              <p className="personalCaptionSeven">Gabrielle Caunesil,Georgina Grace - A Private Society</p>
+              <p className="personalCaptionSeven">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
               </div>  
           </div>   
 
