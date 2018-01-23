@@ -7,9 +7,9 @@
         margin-top: 80px; 
     }
     #homepageImage {
-        height: 1250px; 
+        height: 1000px; 
         width: 800px; 
-        margin-left: 300px; 
+        margin-left: 500px; 
     } 
     .header-text {
         margin-right: 40px; 
@@ -116,12 +116,12 @@
     margin-top: 80px; 
 } 
 #homepageImage {
-    height: 1250px; 
+    height: 1000px; 
     width: 750px; 
-    margin-left: -170px; 
+    margin-left: 285px; 
 } 
 .header-text {
-    margin-right: 125px; 
+    margin-right: 80px; 
 } 
 .header-text-2{
     margin-right: 80px; 
@@ -220,11 +220,12 @@ div.carousel-inner #personal12 {
 /* ---------------------------------------------------------------- */ 
 @media only screen and (max-width: 1600px) {
     a.il {
-        margin-left: 590px; 
+        margin-left: 630px; 
     }
     #homepageImage {
-        height: 1250px; 
-        margin-left: 60px; 
+        height: 1000px; 
+        margin-left: 300px; 
+        width: 700px; 
     } 
     .header-text {
         margin-right: 20px; 
@@ -324,9 +325,10 @@ div.carousel-inner #personal12 {
         margin-left: 590px; 
     }
     #homepageImage {
-        height: 1250px; 
-        margin-left: -100px; 
-    } 
+        height: 900px; 
+        width: 600px; 
+        margin-left: 260px; 
+    }  
     .header-text {
         margin-right: 20px; 
     } 
@@ -334,8 +336,8 @@ div.carousel-inner #personal12 {
         margin-right: 20px; 
     }
     .header-text-3 {
-        margin-right: 20px; 
-    } 
+        margin-right: 20px;
+    }
    /* #myCarousel {
         width: 1440px; 
     }
@@ -424,8 +426,59 @@ div.carousel-inner #personal12 {
 } 
 
 /* ----------------------------------------------- */ 
+@media only screen and (max-width: 1280px) {
+    a.il {
+        margin-left: 480px; 
+        margin-top: 70px; 
+    }
+    #homepageImage {
+        height: 800px; 
+        width: 500px; 
+        margin-left: -50px; 
+    } 
+    .header-text {
+        margin-right: 60px; 
+    }
+    .header-text-2 {
+        margin-right: 60px; 
+    }
+    .header-text-3 {
+        margin-right: 60px; 
+    } 
+    .publications-container {
+        margin-left:  -80px; 
+        margin-top: 400px; 
+    } 
+}
+/*------------------------------------------------*/
 @media only screen and (max-width: 1300px) {
-    #myCarousel {
+    a.il {
+        margin-left: 510px; 
+        margin-top: 70px; 
+    }
+    #homepageImage {
+        height: 700px; 
+        width: 500px; 
+        margin-left: 180px; 
+    } 
+    .header-text {
+        margin-right: 40px; 
+    }
+    .header-text-2 {
+        margin-right: 40px; 
+    }
+    .header-text-3 {
+        margin-right: 40px; 
+    }  
+    .publications-container {
+        margin-left: 100px; 
+        margin-top: 400px; 
+    } 
+}
+
+
+
+    /*#myCarousel {
         width: 1300px; 
     }
     a.il {
@@ -507,20 +560,44 @@ div.carousel-inner #personal12 {
 #rightp {
     margin-top: 10px; 
     margin-left: 10px;  
-    } 
+    } */
      /* publications page */ 
-     .publications-container {
+ /*    .publications-container {
         margin-left: 50px; 
         margin-top: 400px; 
     } 
     .border {
         margin-right: 200px; 
     }
-} 
+} */
 
 /* ----------------------------------------------- */ 
-@media only screen and (max-width: 1025px) {
-    #myCarousel {
+@media only screen and (max-width: 1024px) { 
+    a.il {
+        margin-left: 310px; 
+        margin-top: 70px; 
+    }
+    #homepageImage {
+        height: 700px; 
+        width: 480px; 
+        margin-left: -100px; 
+    } 
+    .header-text {
+        margin-right: 100px; 
+    }
+    .header-text-2 {
+        margin-right: 90px; 
+    }
+    .header-text-3 {
+        margin-right: 90px; 
+    }  
+    .publications-container {
+        margin-left: -100px; 
+    } 
+}
+
+
+    /*#myCarousel {
         width: 1025px; 
     }
     a.il {
@@ -596,4 +673,4 @@ div.carousel-inner #personal12 {
 #rightp {
     margin-left: -40px; 
     } 
-}
+}*/
