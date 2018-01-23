@@ -1,7 +1,13 @@
 body {
     animation: film 3s; 
-    color:  #696969;  
+    color:  #696969; 
+    margin: auto;
 } 
+#root {
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+}
 
 @keyframes body { 
     from {
@@ -2009,8 +2015,8 @@ div.carousel-inner #personal12 {
 
 
   #rightArrow {
-    margin-left: -20px; 
-    height: 80px; 
+    margin-right: -20px; 
+    height: 60px; 
     cursor: pointer;
   }
 
@@ -2117,7 +2123,22 @@ div.carousel-inner #personal12 {
     width: 50%;
 }*/
 .each .image-holder img {
-    height: 100vh;
+    max-height: 100vh;
+    /*width: 100%;*/
+    /* I'm kind of out of ideas, are you there?* yeah so, so should I try to style the image in like photoshop first?
+    ok yes, that can help, you may need to crop the picture so that the height will reduce. ok man I wish i could jus style a few of them just to have a larger width. One more question. what will i do
+    about the media queries portion for larger screens?
+    hmmnn the responsiveness right? yes... That'll be a bit of work especialy for mobile
+
+    what you can do for bigger screens is set a maximum width on the main wrapping div
+    e.g max-width: 1200px; width: 100% margin: auto
+    so that way any screen bigger than 1200px will just put the main website in the middle
+    and if the screen is less than 1200px; it will cover the full screen got it. I just wish I could style just a few of them in order to fit the screen better
+    well yes you can actually, how?
+    you can just assume everything you've written so far is for mobile
+    so you'll set a media query below everything you have
+    e.g
+     */
 }
 
 .gallery-popup .gallery-wrapper p.caption.caption-right {
@@ -2125,3 +2146,7 @@ div.carousel-inner #personal12 {
 }
 
 /** end of gallery **/ 
+
+/** larger scrrens **/
+@media screen and (min-width: 1200px) {
+}
