@@ -1566,7 +1566,7 @@ div.carousel-inner #w31 {
 .test {
     margin-left: 1000px;
     margin-right: 1000px; 
-    background: red; 
+    /*background: red; */
     z-index: -3px; 
 }  
 
@@ -1634,7 +1634,43 @@ div.carousel-inner #w31 {
     font-style: italic; 
     margin-left: -200px; 
     margin-top: -70px;  
+} 
+
+.personalCaptionFive {
+    text-shadow: none !important; 
+    border: none;
+    color: #696969; 
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    margin-left: -200px; 
+    margin-top: -70px;  
+} 
+
+
+.personalCaptionSix {
+    text-shadow: none !important; 
+    border: none;
+    color: #fff;
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    margin-left: -200px; 
+    margin-top: -70px;  
+} 
+
+.personalCaptionSeven {
+    text-shadow: none !important; 
+    border: none;
+    color: #fff;
+    font-family: "Didot";
+    font-size: 8px;  
+    font-style: italic; 
+    margin-left: -200px; 
+    margin-top: -70px;  
 }
+
+
 
 @keyframes personal-container { 
     from {

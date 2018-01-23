@@ -34,10 +34,7 @@
         margin-left: 500px; 
     }
 /* personal -------------------------------------------- */
-    div.carousel-inner {
-        width: 1920px; 
 
-}
 
     div.carousel-inner #personal0 {
           margin-top: 50px; 
@@ -46,22 +43,23 @@
           width: 700px; 
     }  
     .personalCaptionZero {
-        margin-left: 830px; 
+        margin-left: 130px; 
         margin-top: -250px; 
         font-size: 13px; 
       }
     div.carousel-inner #personal1 {
-         height: 1200px; 
-         width: 1750px; 
+        margin-top: 50px; 
+         height: 990px; 
+         width: 1600px; 
    }  
    div.carousel-inner #personal2 {
     margin-top: 50px; 
-    margin-left: 1215px; 
+    margin-left: 1150px; 
     height: 1200px; 
     width: 800px; 
 }  
 .personalCaptionTwo {
-    margin-left: -1480px; 
+    margin-left: -2250px; 
     margin-top: -250px; 
     font-size: 13px; 
   }
@@ -72,7 +70,7 @@ div.carousel-inner #personal3 {
     width: 700px; 
 } 
 .personalCaptionThree {
-    margin-left: -1580px; 
+    margin-left: -2250px; 
     margin-top: -250px; 
     font-size: 13px; 
     overflow: hidden; 
@@ -84,7 +82,7 @@ div.carousel-inner #personal4 {
     width: 800px; 
 }  
 .personalCaptionFour {
-    margin-left: 1300px; 
+    margin-left: 710px; 
     margin-top: -250px; 
     font-size: 13px; 
   }  
@@ -94,15 +92,73 @@ div.carousel-inner #personal5 {
     height: 1200px; 
     width: 800px; 
 }  
+.personalCaptionFive {
+    margin-left: 710px; 
+    margin-top: -280px; 
+    font-size: 13px; 
+  }  
 div.carousel-inner #personal6 {
-    height: 1200px; 
-    width: 1750px; 
-} 
-   .personalCaptionOne {
-       margin-left: 920px; 
-       margin-top: -210px; 
+    margin-top: 50px; 
+    height: 990px; 
+    width: 1600px; 
+}   
+.personalCaptionSix {
+    margin-left: -2250px; 
+    margin-top: -50px; 
+    font-size: 13px; 
+  } 
+  div.carousel-inner #personal7 {
+    margin-top: 50px; 
+    height: 990px; 
+    width: 1600px; 
+}   
+
+.personalCaptionSeven {
+    margin-left: -2250px; 
+    margin-top: -50px; 
+    font-size: 13px; 
+  }   
+  div.carousel-inner #personal8 {
+    margin-top: 50px; 
+    height: 990px; 
+    width: 1600px; 
+}   
+div.carousel-inner #personal9 {
+    margin-top: 50px; 
+    height: 990px; 
+    width: 1600px; 
+}  
+div.carousel-inner #personal10 {
+    margin-top: 50px; 
+    margin-left: 1150px; 
+    height: 990px; 
+    width: 800px; 
+}   
+div.carousel-inner #personal11 {
+    margin-top: 50px; 
+    margin-left: 1150px; 
+    height: 990px; 
+    width: 800px; 
+}        
+div.carousel-inner #personal12 {
+    margin-top: 50px; 
+    margin-left: 1150px; 
+    height: 990px; 
+    width: 800px; 
+}     
+
+.personalCaptionOne {
+       margin-left: 220px; 
+       margin-top: -40px; 
        font-size: 13px; 
-     }
+} 
+
+.personalcaption {
+    margin-left: -2300px; 
+    margin-top: -50px; 
+    font-size: 13px; 
+}
+
     #leftp {
         margin-top: 100px; 
         margin-left: -80px;  
@@ -112,82 +168,18 @@ div.carousel-inner #personal6 {
         margin-left: 700px; 
 
     }  
-    /*.carousel-control.right {
+    .carousel-control.right {
         margin-top: 500px; 
-        margin-left: 200px; 
-    } */
+        
+    } 
 
 
   .test {
         margin-left: -550px; 
         margin-bottom: 20px; 
     }  
-   
-     /* }  
-      div.carousel-inner #personal1 {
-        height: 1250px; 
-        width: 1730px; 
-    }  
-    div.carousel-inner #personal2 {
-        margin-left: 1000px; 
-        height: 1250px; 
-        width: 1000px; 
-    }  
-    div.carousel-inner #personal3 {
-        margin-left: 500px; 
-        height: 1250px; 
-        width: 1000px; 
-    }  
-    div.carousel-inner #personal4 {
-        margin-left: 130px; 
-        height: 1250px; 
-        width: 1000px; 
-    }   
-    div.carousel-inner #personal5 {
-        margin-left: 130px; 
-        height: 1250px; 
-        width: 1000px; 
-    }  
-    div.carousel-inner #personal6 {
-        height: 1250px; 
-        width: 1730px; 
-    }   
-    div.carousel-inner #personal7 {
-        height: 1250px; 
-        width: 1730px; 
-    }  
-    div.carousel-i5ner #personal7 {
-        height: 1250px; 
-        width: 1730px; 
-    } 
-    div.carousel-inner #personal8 {
-        height: 1250px; 
-        width: 1730px; 
-    }     
-    div.carousel-inner #personal9 {
-        height: 1250px; 
-        width: 1730px; 
-    }  
-    div.carousel-inner #personal10 {
-        margin-left: 1000px; 
-        height: 1250px; 
-        width: 1000px; 
-    }  
-    div.carousel-inner #personal11 {
-        margin-left: 1000px; 
-        height: 1250px; 
-        width: 1000px; 
-    }  
-    div.carousel-inner #personal12 {
-        margin-left: 1000px; 
-        height: 1250px; 
-        width: 1000px; 
-    }   
-    .personalcaption {
-        margin-left: -1750px; 
-        margin-top: -50px; 
-    }  
-   */
+  
+  
     /* publications */ 
     .publications-container {
         margin-top: 600px; 
