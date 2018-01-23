@@ -32,11 +32,17 @@ const Slideshowpersonal = () => (
           </div> 
 
           <div className="item">
-              <img src="assets/images/4MaximNazarov.jpg" id="personal3" />
+              <img src="assets/images/4MaximNazarov.jpg" id="personal3" /> 
+              <div className="carousel-caption">  
+              <p className="personalCaptionThree">Maxim Nazarov,London</p>
+              </div>  
           </div> 
 
           <div className="item">
               <img src="assets/images/5JaceyandAnya.jpg" id="personal4" />
+              <div className="carousel-caption">  
+              <p className="personalCaptionFour">Jacey Ethalion,Anya Baker,London</p>
+              </div>  
           </div>  
 
           <div className="item">

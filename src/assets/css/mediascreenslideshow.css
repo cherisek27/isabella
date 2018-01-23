@@ -1,7 +1,11 @@
 @media only screen and (max-width: 1920px) {
     #myCarousel {
         width: 1920px; 
-    } 
+    }  
+    .carousel-caption {
+        width: 1920px; 
+    }
+  
     a.il {
         margin-left: 820px; 
         margin-top: 80px; 
@@ -30,9 +34,11 @@
         margin-left: 500px; 
     }
 /* personal -------------------------------------------- */
-    carousel-inner-p {
-        height: 1200px; 
+    div.carousel-inner {
+        width: 1920px; 
+
 }
+
     div.carousel-inner #personal0 {
           margin-top: 50px; 
           margin-left: 500px;
@@ -47,25 +53,41 @@
     div.carousel-inner #personal1 {
          height: 1200px; 
          width: 1750px; 
-   } 
+   }  
    div.carousel-inner #personal2 {
     margin-top: 50px; 
     margin-left: 1215px; 
     height: 1200px; 
     width: 800px; 
-} 
+}  
+.personalCaptionTwo {
+    margin-left: -1480px; 
+    margin-top: -250px; 
+    font-size: 13px; 
+  }
 div.carousel-inner #personal3 {
     margin-top: 50px; 
     margin-left: 600px; 
     height: 1200px; 
     width: 700px; 
-}  
+} 
+.personalCaptionThree {
+    margin-left: -1580px; 
+    margin-top: -250px; 
+    font-size: 13px; 
+    overflow: hidden; 
+  } 
 div.carousel-inner #personal4 {
     margin-top: 50px; 
     margin-left: 160px;
     height: 1200px; 
     width: 800px; 
 }  
+.personalCaptionFour {
+    margin-left: 1300px; 
+    margin-top: -250px; 
+    font-size: 13px; 
+  }  
 div.carousel-inner #personal5 {
     margin-top: 50px; 
     margin-left: 160px;
@@ -85,15 +107,18 @@ div.carousel-inner #personal6 {
         margin-top: 100px; 
         margin-left: -80px;  
     } 
-    #rightp {
+  #rightp {
         margin-top: 10px; 
-        margin-left: 700px;  
+        margin-left: 700px; 
+
     }  
-    .carousel-control.right {
+    /*.carousel-control.right {
         margin-top: 500px; 
         margin-left: 200px; 
-    }
-    .test {
+    } */
+
+
+  .test {
         margin-left: -550px; 
         margin-bottom: 20px; 
     }  
@@ -161,7 +186,7 @@ div.carousel-inner #personal6 {
     .personalcaption {
         margin-left: -1750px; 
         margin-top: -50px; 
-    } 
+    }  
    */
     /* publications */ 
     .publications-container {
