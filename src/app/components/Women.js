@@ -55,8 +55,8 @@ class Women extends Component {
                     <div key={index} className={photoIndex === index ? "each active" : "each"}>
                       <div className={`image-holder ${each.position}`}>
                         {
-                          (each.caption && each.position.includes('right')) && <p className={`caption ${each.position}`}>{each.caption}</p>
-                        }
+                          (each.caption && each.position.includes('right')) && <p className={`caption ${each.position}`}>{each.caption}</p> 
+                        } 
                         <img src={each.src} style={each.style} />
                         {
                           (each.caption && each.position.includes('left')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
@@ -68,7 +68,19 @@ class Women extends Component {
                           (each.caption && each.position.includes('fullLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p>
                         } 
                         {
-                        (each.caption && each.position.includes('centerLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p>
+                        (each.caption && each.position.includes('centerLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
+                        }  
+                        {
+                        (each.caption && each.position.includes('centerRight')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
+                        }
+                        {
+                        (each.caption && each.position.includes('centerCloseLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
+                        } 
+                        {
+                        (each.caption && each.position.includes('rightFarLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
+                        } 
+                        {
+                        (each.caption && each.position.includes('testRight')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
                         }
                       </div>
                     </div>

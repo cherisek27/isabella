@@ -2117,7 +2117,31 @@ div.carousel-inner #personal12 {
     margin-top: 970px; 
     margin-left: -400px; 
     position: absolute; 
-}
+} 
+
+.each p.caption.centerCloseLeftCaption {
+    margin-top: 850px; 
+    margin-left: -150px; 
+    position: absolute;
+}   
+
+/* ----------------- */
+.each p.caption.captionLeftLeft {
+    margin-bottom: 60px; 
+    margin-left: -1970px; 
+    position: absolute;
+}    
+
+.gallery-popup .gallery-wrapper .testRight {
+    margin-left: 32px; 
+    position: relative;
+    padding-left: 1000px; 
+}   
+
+
+.gallery-popup .gallery-wrapper .centerCloseLeft {
+        margin-left: 500px;    
+    } 
 
  
 

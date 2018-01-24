@@ -381,7 +381,7 @@ div.carousel-inner #ads6 {
 
 .each p.caption.testCaption {
     margin-top: 900px; 
-    margin-left: 1450px; 
+    margin-left: 1250px; 
 }  
 
 .each p.caption.fullLeftCaption {
@@ -393,13 +393,50 @@ div.carousel-inner #ads6 {
     margin-top: 970px; 
     margin-left: -400px; 
     position: absolute;
+}   
+
+.each p.caption.captionLeftLeft {
+    margin-bottom: 60px; 
+    margin-left: -1970px; 
+    position: absolute;
+}    
+
+.gallery-popup .gallery-wrapper .testRight {
+    margin-left: 32px; 
+    position: relative;
+    padding-left: 1000px; 
+}   
+
+ 
+.each p.caption.centerCloseLeftCaption {
+    margin-top: 850px; 
+    margin-left: -150px; 
+    position: absolute;
 }  
+
+.each p.caption.rightFarLeftCaption {
+    margin-left: 10px; 
+    position: absolute; 
+}   
+
+.each p.caption.centerRightCaption {
+    margin-top: 970px; 
+    margin-left: 500px; 
+    position: absolute;
+}   
+ 
+
+.gallery-popup .gallery-wrapper .centerRight {
+    margin-left: 500px;  
+} 
+
+.gallery-popup .gallery-wrapper .centerCloseLeft {
+        margin-left: 500px;   
+    } 
  
 
 .gallery-popup .gallery-wrapper .centerLeft {
-
     margin-left: 500px;  
-
 } 
 
 
