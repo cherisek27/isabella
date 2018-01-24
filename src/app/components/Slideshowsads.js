@@ -66,7 +66,7 @@ const Slideshowsads = () => (
                   <span className="slide"><img src="assets/images/leftArrowSlideshow.svg" id="lefta" /></span>
                   <span className="sr-only">Previous</span>
               </a>
-              <a className="right carousel-control" href="#myCarousel" data-slide="next">
+              <a className="right carousel-control" href="#myCarousel"  data-slide="next" id="leftCarouselAds">
                   <span className="test"><img src="assets/images/rightArrowSlidshow.svg" id="righta" /></span>
                   <span className="sr-only">Next</span>
               </a>

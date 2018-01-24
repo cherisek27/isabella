@@ -30,27 +30,26 @@
         margin-left: -80px;  
     } 
   #righta {
-        margin-top: 10px; 
-        margin-left: 700px; 
+        margin-top: 5px; 
+        margin-left: 20px; 
+ 
+    }   
 
-    }  
-    .carousel-control.right {
+    #leftCarouselAds {
         margin-top: 500px; 
-        
     } 
 
   .test {
-        margin-left: -550px; 
-        margin-bottom: 20px; 
+        padding-top: 10px; 
     }  
   
     div.carousel-inner #ads0 {
         height: 1000px; 
-        margin-left: 1100px; 
+        margin-left: 1080px; 
     } 
 
     .adscaption {
-        margin-left: -740px; 
+        margin-left: -800px; 
         margin-bottom: 150px; 
         font-size: 13px; 
     }  
@@ -64,41 +63,33 @@
         width: 700px; 
         margin-left: 1050px; 
     }  
-    div.carousel-inner #ads1 {
-        height: 1000px; 
-        width: 700px; 
-        margin-left: 1060px; 
-    }  
+  
     div.carousel-inner #ads2 {
         height: 1000px; 
         width: 700px; 
-        margin-left: 1060px; 
+        margin-left: 1045px; 
     } 
     div.carousel-inner #ads3 {
         height: 1000px; 
         width: 700px; 
-        margin-left: 1060px; 
+        margin-left: 1045px; 
     }  
      div.carousel-inner #ads4 {
         height: 1000px; 
         width: 700px; 
-        margin-left: 1060px; 
+        margin-left: 1045px; 
     } 
     div.carousel-inner #ads5 {
         height: 1000px; 
         width: 700px; 
-        margin-left: 1060px; 
+        margin-left: 1045px; 
     } 
     div.carousel-inner #ads6 {
         height: 1000px; 
         width: 700px; 
-        margin-left: 1060px; 
+        margin-left: 1045px; 
     } 
-    div.carousel-inner #ads7 {
-        height: 1000px; 
-        width: 700px; 
-        margin-left: 1060px; 
-    } 
+  
 /* personal --------------------------------------------------------------- */
 
 
@@ -401,17 +392,14 @@ div.carousel-inner #ads6 {
     position: absolute;
 }     
 
-/*
-.each p.caption.captionImgLeft {
-    margin-left: -1070px; 
-    position: absolute;
-    color: red; 
-}     
+.gallery-popup .gallery-wrapper .side img {
+    margin-left: 0px; 
+}
 
-.gallery-popup .gallery-wrapper .imgRight {
-    margin-left: 502px; 
-    position: relative;
-}  */
+.each p.caption.rightSide {
+    margin-top: 900px; 
+    margin-left: 500px; 
+}
 
 
 .gallery-popup .gallery-wrapper .testRight {
