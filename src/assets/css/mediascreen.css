@@ -35,7 +35,7 @@
  
     }   
 
-    #leftCarouselAds {
+    #rightCarouselAds {
         margin-top: 500px; 
     } 
 
@@ -91,7 +91,24 @@
     } 
   
 /* personal --------------------------------------------------------------- */
+#rightCarouselPersonal {
+    margin-top: 500px; 
+}   
 
+#rightp {
+    margin-top: 5px; 
+    margin-right: 40px; 
+
+}   
+
+#rightCarouselPersonal {
+    margin-top: 580px; 
+}
+
+.testTwo {
+    margin-left: 10px; 
+    padding-top: 50px; 
+}  
 
     div.carousel-inner #personal0 {
           margin-top: 50px; 

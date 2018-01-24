@@ -1584,6 +1584,7 @@ div.carousel-inner #w31 {
 /* -------------- personal page ---------------- */ 
 
 
+
 .personal-container {
     animation: film 4s; 
     position: fixed;
@@ -1609,16 +1610,16 @@ div.carousel-inner #w31 {
     margin-right: 100px; 
     margin-top: 200px; 
 }  
+ 
 
-.test:hover  #rightp{
+.testTwo:hover  #rightp{
     visibility: visible;
 } 
 
-.test {
+.testTwo {
     margin-left: 1000px;
     margin-right: 1000px; 
     /*background: red; */
-    z-index: -3px; 
 }  
 
 .personalcaption {

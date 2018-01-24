@@ -108,8 +108,8 @@ const Slideshowpersonal = () => (
                   <span className="slide"><img src="assets/images/leftArrowSlideshow.svg" id="leftp" /></span>
                   <span className="sr-only">Previous</span>
               </a>
-              <a className="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span className="test"><img src="assets/images/rightArrowSlidshow.svg" id="rightp" /></span>
+              <a className="right carousel-control" href="#myCarousel" data-slide="next" id="rightCarouselPersonal">
+                  <span className="testTwo"><img src="assets/images/rightArrowSlidshow.svg" id="rightp" /></span>
                   <span className="sr-only">Next</span>
               </a>
   
