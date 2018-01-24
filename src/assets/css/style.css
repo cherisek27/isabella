@@ -2104,12 +2104,37 @@ div.carousel-inner #personal12 {
     margin-bottom: 300px; 
     position: absolute; 
     color: #fff; 
-}
+} 
+
+.each p.caption.fullLeftCaption {
+    margin-left: 500px; 
+    margin-top: 100px; 
+    position: absolute; 
+    color: #fff; 
+}  
 
 
-.gallery-popup .gallery-wrapper .center {
-    justify-content: center; 
+/*.each p.caption.centerLeftCaption {
+    margin-left: 500px; 
+    margin-top: 100px; 
+
+} */
+
+.gallery-popup .gallery-wrapper .fullLeft img {
+    width: 100%;
+    position: relative;
 }
+
+/*
+div.image-holder.centerLeft {
+    margin-left: 10px;   
+} 
+
+.gallery-popup .gallery-wrapper .centerLeft {
+        
+        margin-left: 500px;   
+    } */
+ 
 
 .gallery-popup .gallery-wrapper .full img {
     width: 100%;

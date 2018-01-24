@@ -5,10 +5,9 @@ const images = [ { src: '../assets/images/1allieleggett.jpg', position: 'left ed
 { src: '../assets/images/3.1Rafaella.jpg', position: 'right', caption: 'Rafaella Consentino, London' },
 { src: '../assets/images/3.2Rafaella.jpg', position: 'right', caption: 'Rafaella Consentino, London' },
 { src: '../assets/images/3.3Rafaella.jpg', position: 'right', caption: 'Rafaella Consentino, London' },
-{ src: './assets/images/4ChloeLloyd.jpg', position: 'full', 
-caption: 'Chloe, Park Plaza, Westminster', captionPosition: 'caption-left' }, /*fix caption */
-{ src: '../assets/images/5ArianaAnast.jpg', position: 'center', 
-caption: 'Ariana Anast, Spain', captionPosition: 'caption-left' }, /* fix caption */ 
+{ src: './assets/images/4ChloeLloyd.jpg', position: 'fullLeft', caption: 'Chloe, Park Plaza, Westminster', captionPosition: 'fullLeftCaption' }, 
+{ src: '../assets/images/5ArianaAnast.jpg', position: 'centerLeft', 
+caption: 'Ariana Anast, Spain', captionPosition: 'centerLeftCaption' }, 
 { src: '../assets/images/6GeorginaGrace.jpg', position: 'right', caption: 'Georgina Grace, London'},
 { src: '../assets/images/7CatrinaStella.jpg', position: 'left', caption: 'Catrina Stella, Downtown Los Angeles'},
 { src: '../assets/images/7.1CatrinaStella.jpg', position: 'left', caption: 'Catrina Stella, Downtown Los Angeles'},

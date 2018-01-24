@@ -382,12 +382,27 @@ div.carousel-inner #ads6 {
 .each p.caption.testCaption {
     margin-top: 900px; 
     margin-left: 1450px; 
+}  
+
+.each p.caption.fullLeftCaption {
+    margin-top: 200px; 
+    margin-left: 10px; 
 } 
 
-/*.gallery-popup .gallery-wrapper .full img{
-    position: relative;
-} */
+.each p.caption.centerLeftCaption {
+    margin-top: 970px; 
+    margin-left: -400px; 
+    color: red; 
+    position: absolute;
+}  
  
+
+
+.gallery-popup .gallery-wrapper .centerLeft {
+    margin-right: 500px;  
+    margin-left: 500px;  
+    width: 1680px; 
+} 
 
 
 .image-grid  {
@@ -402,7 +417,6 @@ div.carousel-inner #ads6 {
 
 .each .caption {
     margin-top: 54%; 
-    font-size: 13px; 
 } 
 
 .gallery-popup .nav.arrow-right {
@@ -430,11 +444,13 @@ div.carousel-inner #ads6 {
     margin-top: 800px; 
 }   
 
-
+p.caption.left.edge.caption-right {
+    margin-top: 900px; 
+}
 
 .each p.caption.left.edge {
     margin-left: 800px; 
-    margin-bottom: 180px; 
+    margin-bottom: 80px; 
 } 
 
 .image-holder.left {
