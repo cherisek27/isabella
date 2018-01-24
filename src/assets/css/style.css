@@ -2130,13 +2130,24 @@ div.carousel-inner #personal12 {
     margin-bottom: 60px; 
     margin-left: -1970px; 
     position: absolute;
-}    
+}   
+
+.each p.caption.centerRightCaption {
+    margin-top: 875px; 
+    margin-left: 950px; 
+    position: absolute;
+}   
+ 
+
+.gallery-popup .gallery-wrapper .centerRight {
+    margin-left: 500px;  
+} 
 
 .gallery-popup .gallery-wrapper .testRight {
     margin-left: 32px; 
     position: relative;
     padding-left: 1000px; 
-}   
+}    
 
 
 .gallery-popup .gallery-wrapper .centerCloseLeft {
@@ -2146,18 +2157,25 @@ div.carousel-inner #personal12 {
  
 
 .gallery-popup .gallery-wrapper .centerLeft {
-    
         margin-left: 500px;  
-    
-    } 
+     } 
 
 
 
 .gallery-popup .gallery-wrapper .fullLeft img {
     width: 100%;
     position: relative;
-} 
+}  
+ /*----------------------------------- */
 
+.gallery-popup .gallery-wrapper .side img {
+    margin-left: 0px; 
+}
+
+.each p.caption.rightSide {
+    margin-top: 900px; 
+    margin-left: 500px; 
+}
  
 
 .gallery-popup .gallery-wrapper .full img {

@@ -399,7 +399,20 @@ div.carousel-inner #ads6 {
     margin-bottom: 60px; 
     margin-left: -1970px; 
     position: absolute;
-}    
+}     
+
+/*
+.each p.caption.captionImgLeft {
+    margin-left: -1070px; 
+    position: absolute;
+    color: red; 
+}     
+
+.gallery-popup .gallery-wrapper .imgRight {
+    margin-left: 502px; 
+    position: relative;
+}  */
+
 
 .gallery-popup .gallery-wrapper .testRight {
     margin-left: 32px; 
@@ -417,7 +430,9 @@ div.carousel-inner #ads6 {
 .each p.caption.rightFarLeftCaption {
     margin-left: 10px; 
     position: absolute; 
-}   
+}    
+
+
 
 .each p.caption.centerRightCaption {
     margin-top: 875px; 

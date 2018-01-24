@@ -68,11 +68,14 @@ class Women extends Component {
                           (each.caption && each.position.includes('fullLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p>
                         } 
                         {
+                          (each.caption && each.position.includes('side')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p>
+                        }  
+                        {
                         (each.caption && each.position.includes('centerLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
                         }  
                         {
                         (each.caption && each.position.includes('centerRight')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
-                        }
+                        } 
                         {
                         (each.caption && each.position.includes('centerCloseLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
                         } 
@@ -80,7 +83,10 @@ class Women extends Component {
                         (each.caption && each.position.includes('rightFarLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
                         } 
                         {
-                        (each.caption && each.position.includes('testRight')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
+                        (each.caption && each.position.includes('testRight')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p>  
+                        }
+                        {
+                        (each.caption && each.position.includes('imgTest')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
                         }
                       </div>
                     </div>
