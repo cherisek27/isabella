@@ -62,7 +62,7 @@ const Slideshowsads = () => (
              </div>
       
               {/* Left and right controls */}
-              <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+              <a className="left carousel-control" href="#myCarousel" data-slide="prev" id="leftCarouselAds">
                   <span className="slide"><img src="assets/images/leftArrowSlideshow.svg" id="lefta" /></span>
                   <span className="sr-only">Previous</span>
               </a>

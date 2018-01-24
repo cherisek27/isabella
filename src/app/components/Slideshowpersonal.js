@@ -104,7 +104,7 @@ const Slideshowpersonal = () => (
         </div>
   
           {/* Left and right controls */}
-          <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+          <a className="left carousel-control" href="#myCarousel" data-slide="prev" id="leftCarouselPersonal">
                   <span className="slide"><img src="assets/images/leftArrowSlideshow.svg" id="leftp" /></span>
                   <span className="sr-only">Previous</span>
               </a>
