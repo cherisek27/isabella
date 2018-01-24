@@ -730,7 +730,39 @@ div.carousel-inner #personal12 {
 
 #leftp {
     margin-top: 100px; 
-}
+}  
+
+#rightp {
+    margin-right: 20px; 
+} 
+
+#rightCarouselPersonal {
+    margin-top: 470px; 
+} 
+
+.testTwo {
+    margin-left: -450px; 
+    width: 100px; 
+    padding-top: 80px; 
+}   
+
+div.carousel-inner #personal0 {
+    width: 600px; 
+} 
+
+.personalCaptionZero {
+    margin-left: -80px; 
+    margin-top: -250px; 
+} 
+
+div.carousel-inner #personal1 {
+    width: 1300px; 
+}  
+
+.personalCaptionOne {
+    margin-left: -480px; 
+    margin-top: -250px; 
+} 
 
 
 
@@ -765,7 +797,13 @@ div.carousel-inner #personal12 {
     } 
 
     .each p.caption.left {
-        margin-top: 680px; 
+        margin-top: 680px;  
+
+    }
+    
+    .each p.caption.full.testCaption {
+        margin-left: 940px; 
+
     }
 }
    
