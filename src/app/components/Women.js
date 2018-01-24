@@ -59,8 +59,12 @@ class Women extends Component {
                         }
                         <img src={each.src} style={each.style} />
                         {
-                          (each.caption && each.position.includes('left')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p>
+                          (each.caption && each.position.includes('left')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
                         }
+                        {
+                          (each.caption && each.position.includes('full')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p>
+                        }
+                    
                       </div>
                     </div>
                   ))

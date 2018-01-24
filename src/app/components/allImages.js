@@ -1,6 +1,6 @@
 const images = [ { src: '../assets/images/1allieleggett.jpg', position: 'left edge', caption: 'Allie Leggett, London', captionPosition: 'caption-right' },
 { src: '../assets/images/1.1AllieLeggett.jpg', position: 'left edge', caption: 'Allie Leggett, London', captionPosition: 'caption-right' }, 
-{ src: '../assets/images/2AlanaHadid.jpg', position: 'full', caption: 'Alana Hadid, Beverly Hills', captionPosition: 'caption-right' }, 
+{ src: '../assets/images/2AlanaHadid.jpg', position: 'full', caption: 'Alana Hadid, Beverly Hills', captionPosition: 'testCaption' }, 
 { src: '../assets/images/3Rafaella.jpg', position: 'right', caption: 'Rafaella Consentino, London' },
 { src: '../assets/images/3.1Rafaella.jpg', position: 'right', caption: 'Rafaella Consentino, London' },
 { src: '../assets/images/3.2Rafaella.jpg', position: 'right', caption: 'Rafaella Consentino, London' },

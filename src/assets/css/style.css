@@ -2097,15 +2097,23 @@ div.carousel-inner #personal12 {
 
 .each p.caption.right {
     margin-right: 100px;
+} 
+
+.each p.caption.testCaption {
+    margin-left: 1000px; 
+    margin-bottom: 300px; 
+    position: absolute; 
+    color: #fff; 
 }
 
 
 .gallery-popup .gallery-wrapper .center {
-    justify-content: center;
+    justify-content: center; 
 }
 
 .gallery-popup .gallery-wrapper .full img {
     width: 100%;
+    position: relative;
 }
 
 .gallery-popup .nav {
