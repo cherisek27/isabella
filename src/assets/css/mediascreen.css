@@ -392,16 +392,14 @@ div.carousel-inner #ads6 {
 .each p.caption.centerLeftCaption {
     margin-top: 970px; 
     margin-left: -400px; 
-    color: red; 
     position: absolute;
 }  
  
 
-
 .gallery-popup .gallery-wrapper .centerLeft {
-    margin-right: 500px;  
+
     margin-left: 500px;  
-    width: 1680px; 
+
 } 
 
 

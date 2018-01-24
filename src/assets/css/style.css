@@ -2111,29 +2111,29 @@ div.carousel-inner #personal12 {
     margin-top: 100px; 
     position: absolute; 
     color: #fff; 
-}  
+}   
+
+.each p.caption.centerLeftCaption {
+    margin-top: 970px; 
+    margin-left: -400px; 
+    position: absolute; 
+}
+
+ 
+
+.gallery-popup .gallery-wrapper .centerLeft {
+    
+        margin-left: 500px;  
+    
+    } 
 
 
-/*.each p.caption.centerLeftCaption {
-    margin-left: 500px; 
-    margin-top: 100px; 
-
-} */
 
 .gallery-popup .gallery-wrapper .fullLeft img {
     width: 100%;
     position: relative;
-}
-
-/*
-div.image-holder.centerLeft {
-    margin-left: 10px;   
 } 
 
-.gallery-popup .gallery-wrapper .centerLeft {
-        
-        margin-left: 500px;   
-    } */
  
 
 .gallery-popup .gallery-wrapper .full img {
