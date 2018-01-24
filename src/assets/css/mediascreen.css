@@ -31,7 +31,7 @@
     } 
   #righta {
         margin-top: 5px; 
-        margin-left: 20px; 
+        margin-left: 80px; 
  
     }   
 
@@ -40,7 +40,9 @@
     } 
 
   .test {
-        padding-top: 10px; 
+        width: 40px; 
+        padding-top: 50px; 
+
     }  
   
     div.carousel-inner #ads0 {
