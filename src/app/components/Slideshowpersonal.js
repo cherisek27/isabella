@@ -41,7 +41,7 @@ const Slideshowpersonal = () => (
           <div className="item">
               <img src="assets/images/5JaceyandAnya.jpg" id="personal4" />
               <div className="carousel-caption">  
-              <p className="personalCaptionFour">Jacey Ethalion, Anya Baker, London</p>
+              <p className="personalCaptionFive">Jacey Ethalion, Anya Baker, London</p>
               </div>  
           </div>  
 
@@ -62,21 +62,21 @@ const Slideshowpersonal = () => (
           <div className="item">
               <img src="assets/images/thumbnailsP/6.1privatesociety.jpg" id="personal7" />
               <div className="carousel-caption">  
-              <p className="personalCaptionSeven">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
+              <p className="personalCaptionSix">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
               </div>  
           </div>   
 
           <div className="item">
               <img src="assets/images/thumbnailsP/6.2privatesociety_.jpg" id="personal8" />
               <div className="carousel-caption">  
-              <p className="personalCaptionSeven">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
+              <p className="personalCaptionSix">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
               </div>  
           </div>  
 
           <div className="item">
               <img src="assets/images/thumbnailsP/6.3privatesociety.jpg" id="personal9" />
               <div className="carousel-caption">  
-              <p className="personalCaptionSeven">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
+              <p className="personalCaptionSix">Gabrielle Caunesil, Georgina Grace - A Private Society</p>
               </div>  
           </div>   
 
