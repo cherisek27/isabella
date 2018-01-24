@@ -385,12 +385,12 @@ div.carousel-inner #ads6 {
 }  
 
 .each p.caption.fullLeftCaption {
-    margin-top: 200px; 
-    margin-left: 10px; 
+    margin-top: 900px; 
+    margin-left: 50px; 
 } 
 
 .each p.caption.centerLeftCaption {
-    margin-top: 970px; 
+    margin-top: 900px; 
     margin-left: -400px; 
     position: absolute;
 }   
@@ -420,8 +420,8 @@ div.carousel-inner #ads6 {
 }   
 
 .each p.caption.centerRightCaption {
-    margin-top: 970px; 
-    margin-left: 500px; 
+    margin-top: 875px; 
+    margin-left: 950px; 
     position: absolute;
 }   
  
