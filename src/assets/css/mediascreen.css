@@ -802,7 +802,12 @@ div.carousel-inner #personal1 {
     }
     
     .each p.caption.full.testCaption {
-        margin-left: 940px; 
+        margin-left: 990px; 
+
+    } 
+    .each p.caption.centerCloseLeft.centerCloseLeftCaption {
+        margin-top: 750px;
+        margin-left: -150px; 
 
     }
 }
