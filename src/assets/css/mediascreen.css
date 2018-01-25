@@ -762,7 +762,27 @@ div.carousel-inner #personal1 {
 .personalCaptionOne {
     margin-left: -480px; 
     margin-top: -250px; 
-} 
+}  
+
+div.carousel-inner #personal2 {
+    margin-left: 780px; 
+}  
+
+.personalCaptionTwo {
+    margin-left: -2200px; 
+    margin-top: -250px; 
+}   
+
+div.carousel-inner #personal3 {
+    margin-left: 500px; 
+    width: 600px; 
+}  
+
+.personalCaptionThree {
+    margin-left: -2200px; 
+    margin-top: -290px; 
+}   
+
 
 
 
