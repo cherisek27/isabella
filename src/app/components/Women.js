@@ -69,7 +69,7 @@ class Women extends Component {
                         } 
                         {
                           (each.caption && each.position.includes('sideRight')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p>
-                        }  
+                        } 
                         {
                         (each.caption && each.position.includes('centerLeft')) && <p className={`caption ${each.position} ${each.captionPosition}`}>{each.caption}</p> 
                         }  

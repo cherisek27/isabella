@@ -2150,6 +2150,16 @@ div.carousel-inner #personal12 {
     padding-left: 1000px; 
 }    
 
+.each p.caption.sideLeftCaption {
+    margin-top: 750px;
+    margin-left: 30px; 
+    position: absolute; 
+}  
+    .gallery-popup .gallery-wrapper .sideRight img{
+        margin-left: 750px; 
+        position: relative;
+    }    
+
 
 .gallery-popup .gallery-wrapper .centerCloseLeft {
         margin-left: 500px;    
