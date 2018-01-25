@@ -2076,7 +2076,7 @@ div.carousel-inner #personal12 {
     margin-left: 50px; 
 }
 
-.gallery-popup .gallery-wrapper div.left.edge, .gallery-popup .gallery-wrapper div.right.edge {
+.gallery-popup .gallery-wrapper div.left.edge, .gallery-popup .gallery-wrapper div.right.edge, gallery-popup .gallery-wrapper div.eImL{
     margin: 0;
 }
 
@@ -2158,7 +2158,8 @@ div.carousel-inner #personal12 {
     .gallery-popup .gallery-wrapper .sideRight img{
         margin-left: 750px; 
         position: relative;
-    }    
+    }     
+
 
 
 .gallery-popup .gallery-wrapper .centerCloseLeft {

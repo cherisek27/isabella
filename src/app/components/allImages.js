@@ -40,7 +40,7 @@ caption: 'Catherine Dunlop Palm Springs', captionPosition: 'captionLeftLeft'},
 { src: '../assets/images/17Charlotte.jpg', position: 'centerRight', caption: 'Charolotte, London', captionPosition: 'centerRightCaption'},
 { src: '../assets/images/12.1GeorginaGrace.jpg', position: 'left', caption: 'Georgina Grace, London' },
 
-{ src: '../assets/images/5.1CarolineVreeland.jpg', position: 'left edge', caption: 'Caroline Vreeland, Los Angeles. On set of L\'Amour D\'Une Femme', captionPosition: 'caption-right' },
+{ src: '../assets/images/5.1CarolineVreeland.jpg', position: 'eImgL', caption: 'Caroline Vreeland, Los Angeles. On set of L\'Amour D\'Une Femme', captionPosition: 'rightEdgeCaption' },
 
 { src: '../assets/images/13TessJantschek.jpg',position: 'sideRight', caption: 'Tess Jantscheck - Women in California', captionPosition: 'sideLeftCaption'  },
 

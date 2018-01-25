@@ -411,15 +411,6 @@ div.carousel-inner #ads6 {
     position: absolute;
 }     
 
-/*.gallery-popup .gallery-wrapper .side img {
-    margin-left: 920px; 
-}
-
-.each p.caption.rightSide {
-    margin-top: 400px; 
-    margin-right: -1120px; 
-} */
-
 
 .gallery-popup .gallery-wrapper .testRight {
     margin-left: 32px; 
@@ -636,7 +627,7 @@ div.carousel-inner #personal12 {
     #homepageImage {
         height: 900px; 
         width: 600px; 
-        margin-left: 255px; 
+        margin-left: 20px; 
     }  
     .header-text {
         margin-right: 20px; 
@@ -858,7 +849,7 @@ div.carousel-inner #personal12 {
 
     .each p.caption.left.edge.caption-right {
         margin-top: 760px; 
-        margin-left: 450px; 
+        margin-left: 700px; 
     } 
 
     .each p.caption.full.testCaption {
@@ -920,6 +911,11 @@ div.carousel-inner #personal12 {
         margin-top: 750px;
         margin-left: 30px; 
         position: absolute; 
+    }   
+
+    .each p.caption.rightEdgeCaption {
+        margin-top: 750px;
+        margin-left: 400px; 
     }  
         .gallery-popup .gallery-wrapper .sideRight img{
             margin-left: 750px; 
