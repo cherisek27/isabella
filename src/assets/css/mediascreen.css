@@ -783,6 +783,46 @@ div.carousel-inner #personal3 {
     margin-top: -290px; 
 }   
 
+div.carousel-inner #personal4 {
+    margin-left: 100px; 
+    width: 600px; 
+}  
+
+.personalCaptionFive {
+    margin-left: -10px; 
+    margin-top: -259px; 
+}   
+
+div.carousel-inner #personal5 {
+    margin-left: 98px; 
+    width: 600px; 
+}  
+
+div.carousel-inner #personal6 {
+    width: 1300px; 
+    height: 850px; 
+}   
+
+.personalCaptionSix {
+    margin-left: -2220px; 
+    margin-top: -30px; 
+}   
+
+div.carousel-inner #personal7 {
+    width: 1300px; 
+    height: 850px; 
+}   
+
+div.carousel-inner #personal8 {
+    width: 1300px; 
+    height: 850px; 
+}   
+
+div.carousel-inner #personal9 {
+    width: 1300px; 
+    height: 850px; 
+}  
+
 
 
 
@@ -828,6 +868,16 @@ div.carousel-inner #personal3 {
     .each p.caption.centerCloseLeft.centerCloseLeftCaption {
         margin-top: 750px;
         margin-left: -150px; 
+
+    } 
+    .each p.caption.centerRight.centerRightCaption {
+        margin-top: 750px;
+        margin-left: 800px; 
+
+    } 
+    .each p.caption.side.rightSide {
+        margin-top: 750px;
+        margin-left: 400px; 
 
     }
 }
