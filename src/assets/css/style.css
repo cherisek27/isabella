@@ -2169,14 +2169,17 @@ div.carousel-inner #personal12 {
 }  
  /*----------------------------------- */
 
-.gallery-popup .gallery-wrapper .side img {
-    margin-left: 0px; 
+ .gallery-popup .gallery-wrapper .rightsideTest img {
+    margin-left: 100px; 
+    position: relative; 
+
 }
 
-.each p.caption.rightSide {
-    margin-top: 900px; 
-    margin-left: 500px; 
-}
+.each p.caption.monitoring {
+ 
+    position: absolute;
+    color: red; 
+} 
  
 
 .gallery-popup .gallery-wrapper .full img {
