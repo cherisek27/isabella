@@ -900,9 +900,33 @@ div.carousel-inner #personal12 {
     .each p.caption.side.rightSide {
         margin-top: 750px;
         margin-left: 400px; 
+    } 
 
-    }
-}
+    .each p.caption.centerRight.centerRightCaption {
+            margin-top: 750px;
+            margin-left: 710px;  
+        } 
+
+    .gallery-popup .gallery-wrapper .testRight {
+    margin-left: -108px; 
+}     
+
+    .each p.caption.captionLeftLeft {
+    margin-top: 750px;
+    margin-left: -1810px;  
+    }  
+
+    .each p.caption.sideLeftCaption {
+        margin-top: 750px;
+        margin-left: 30px; 
+        position: absolute; 
+    }  
+        .gallery-popup .gallery-wrapper .sideRight img{
+            margin-left: 750px; 
+            position: relative;
+        }    
+
+ }
    
 
 /* ----------------------------------------------------------------------------------------- */ 
