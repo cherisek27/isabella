@@ -545,10 +545,13 @@ div.carousel-inner #ads6 {
     /*border-bottom: 1px solid black;*/
     display: flex;
     flex-wrap: wrap; 
-    margin-top: 70px;
+    margin-top: 80px; 
+    width: 50%; 
+    margin: auto; 
     padding-bottom: 15px; 
     cursor: pointer;
-}
+} 
+
 
  .image-grid .box { 
   margin-left: 26px;
@@ -2033,17 +2036,12 @@ div.carousel-inner #personal12 {
 }
 
 .gallery-popup .gallery-wrapper {
-    /* I'll probably change this width later but let's leave it for now
-        200% means 2 divs with each, but now that i've added the third
-        i will change it to 3
-    */
+
     width: 100%;
 }
 
 .gallery-wrapper .each {
-    /* I divided 100% by 2 cos there were just two pictures but now
-        i'll change it to 3 since i've added the third one
-    */
+  
     width: 100%;
     position: absolute;
     top: 0;
