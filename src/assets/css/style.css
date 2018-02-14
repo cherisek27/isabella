@@ -30,7 +30,9 @@ body {
     color: #696969; 
     font-family: "Didot"; 
     font-size: 8px; 
+    font-weight: 100px;
     font-style: italic; 
+    margin-right:200px;
     position: fixed; 
     right: 265px; 
     top: 20px; 
@@ -53,13 +55,14 @@ body {
     font-style: italic; 
     margin-top: 30px; 
     position: fixed; 
+    margin-left:14px;
     right: 180px; 
 }  
 
 
 
 .homepage-image {
-    margin-left: 400px; 
+    margin-left:630px; 
     height: 500px; 
     width: 500px; 
     position: fixed;
@@ -117,19 +120,22 @@ a.il:hover {
     background: rgba(255, 255, 255, 0.3);
     height: 100vh;
     padding: 80px 40px; 
+    margin-left: -20px;
     position: fixed;
-    top: 0;
+    top: 7px;
     width: 100%;
 } 
 
 .dropdown-section ul {
     list-style: none; 
+    font-size: 18px;
+    font-weight:10px;
     font-family: "Didot";
     font-style: italic;
 }   
 
 .dropdown-section ul li {
-    padding-bottom: 3px; 
+    padding-top: 3px; 
  }  
 
 .editorial:hover {
