@@ -3,11 +3,11 @@ body {
     color:  #696969; 
     margin: auto;
 } 
-/*#root {
-    max-width: 1300px;
+ .div main-container-header {
+    max-width: 1200px;
     width: 100%;
     margin: auto;
-}*/
+}
 
 @keyframes body { 
     from {
@@ -1745,7 +1745,7 @@ div.carousel-inner #w31 {
 /* -------------- carousel personal -------------- */ 
 
 .main-container-personal {
-    width: 1300px; 
+    max-width: 1200px; 
 }
 
 div.carousel-inner #personal0 {
@@ -2020,14 +2020,14 @@ div.carousel-inner #personal12 {
 
 #leftArrow {
     margin-left: -20px; 
-    height: 60px; 
+    height: 40px; 
     cursor: pointer;
 }
 
 
   #rightArrow {
     margin-right: -20px; 
-    height: 60px; 
+    height: 40px; 
     cursor: pointer;
   }
 
@@ -2247,5 +2247,9 @@ div.carousel-inner #personal12 {
 /** end of gallery **/ 
 
 /** larger scrrens **/
-@media screen and (min-width: 1200px) {
+.main-container {
+
+
+}
+@media screen and (max-width: 1200px) {
 }

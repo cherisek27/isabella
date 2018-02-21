@@ -1,6 +1,6 @@
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1440px) {
     #myCarousel {
-        width: 1920px; 
+        width: 1440px; 
     }  
     .carousel-caption {
         width: 1920px; 
@@ -320,7 +320,7 @@ div.carousel-inner #personal12 {
     margin-top: 80px; 
 } 
 #homepageImage {
-    height: 1000px; 
+    height: 100px; 
     width: 700px; 
     margin-left: 273px; 
 } 
@@ -925,7 +925,7 @@ div.carousel-inner #personal12 {
  }
    
 /* ----------------------------------------------- */ 
-@media only screen and (max-width: 1280px) { 
+@media only screen and (max-width: 1200px) { 
   
 .image-grid  {
     padding-top: 80px; 
