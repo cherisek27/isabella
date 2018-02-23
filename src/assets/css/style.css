@@ -1,7 +1,7 @@
 body {
     animation: film 3s; 
     color:  #696969; 
-    margin: auto;
+   
 } 
  .div main-container-header {
     max-width: 1200px;
@@ -23,6 +23,7 @@ body {
 .main-container-header {
     height: 1200px;  
     width: 1130px; 
+    position:fixed;
     margin-top:10px;
     margin-left:-17px;
 } 

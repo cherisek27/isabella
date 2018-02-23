@@ -1,31 +1,31 @@
-/* @media only screen and (max-width: 1440px) {
+ @media only screen and (max-width: 400px) {
     #myCarousel {
-        width: 1440px; 
+        width: 100px; 
     }  
     .carousel-caption {
-        width: 1920px; 
+        width: 80px; 
     }
   
     a.il {
-        margin-left: 790px; 
+        margin-left: 90px; 
         margin-top: 60px; 
     }
     #homepageImage {
-        height: 1000px; 
-        width: 750px; 
-        margin-left: 450px; 
+        height: 200px; 
+        width: 100px; 
+        margin:auto; 
     } 
     .header-text {
-        margin-right: 140px; 
+        margin-right: 40px; 
     } 
     .header-text-2{
-        margin-right: 140px; 
+        margin-right: 40px; 
     }
     .header-text-3 {
-        margin-right: 140px; 
+        margin-right: 40px; 
     }
     /* advertising ---------------------------------------------------------------- */ 
-   /* #lefta {
+    #lefta {
         margin-top: 100px; 
         margin-left: -80px;  
     } 
@@ -46,8 +46,8 @@
     }  
   
     div.carousel-inner #ads0 {
-        height: 1000px; 
-        margin-left: 1080px; 
+        height: 500px; 
+        margin-left: 80px; 
     } 
 
     .adscaption {
@@ -93,7 +93,7 @@
     } 
   
 /* personal --------------------------------------------------------------- */
-/*#rightCarouselPersonal {
+#rightCarouselPersonal {
     margin-top: 500px; 
 }   
 
@@ -110,9 +110,8 @@
 .testTwo {
     margin-left: 10px; 
     padding-top: 50px; 
-}/*? 
-
-   /* div.carousel-inner #personal0 {
+}
+ div.carousel-inner #personal0 {
           margin-top: 50px; 
           margin-left: 550px;
           height: 1200px; 
@@ -256,9 +255,9 @@ div.carousel-inner #personal12 {
   
 
     /* publications */ 
-   /* .publications-container {
-        margin-top: 1200px; 
-        margin-left: 600px; 
+    .publications-container {
+        margin-top: auto; 
+        margin-left: auto; 
     } 
     .border {
         margin-right: 400px; 
@@ -267,7 +266,7 @@ div.carousel-inner #personal12 {
 
 /* ----------------------------------------------  womens page ----------------------------- * /  
 /* ---------- */ 
-/*.image-grid  {
+.image-grid  {
     padding-top: 80px; 
     width: 70%; 
     margin: auto; 
@@ -303,7 +302,7 @@ div.carousel-inner #personal12 {
     margin-right: 30px;
 } 
 
-}  */
+}  
 
 
 
@@ -320,8 +319,8 @@ div.carousel-inner #personal12 {
     margin-top: 80px; 
 } 
 #homepageImage {
-    height: 1000px; 
-    width: 650px; 
+    height: 800px; 
+    width: 600px; 
     margin-left: 55px; 
 } 
 .header-text {
@@ -629,7 +628,7 @@ div.carousel-inner #personal12 {
     }
     #homepageImage {
         height: 900px; 
-        width: 800px; 
+        width: 700px; 
         margin-left: -50px;  
     }  
     .header-text {
