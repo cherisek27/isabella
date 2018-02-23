@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1440px) {
+/* @media only screen and (max-width: 1440px) {
     #myCarousel {
         width: 1440px; 
     }  
@@ -25,7 +25,7 @@
         margin-right: 140px; 
     }
     /* advertising ---------------------------------------------------------------- */ 
-    #lefta {
+   /* #lefta {
         margin-top: 100px; 
         margin-left: -80px;  
     } 
@@ -93,7 +93,7 @@
     } 
   
 /* personal --------------------------------------------------------------- */
-#rightCarouselPersonal {
+/*#rightCarouselPersonal {
     margin-top: 500px; 
 }   
 
@@ -110,9 +110,9 @@
 .testTwo {
     margin-left: 10px; 
     padding-top: 50px; 
-}  
+}/*? 
 
-    div.carousel-inner #personal0 {
+   /* div.carousel-inner #personal0 {
           margin-top: 50px; 
           margin-left: 550px;
           height: 1200px; 
@@ -256,7 +256,7 @@ div.carousel-inner #personal12 {
   
 
     /* publications */ 
-    .publications-container {
+   /* .publications-container {
         margin-top: 1200px; 
         margin-left: 600px; 
     } 
@@ -267,7 +267,7 @@ div.carousel-inner #personal12 {
 
 /* ----------------------------------------------  womens page ----------------------------- * /  
 /* ---------- */ 
-.image-grid  {
+/*.image-grid  {
     padding-top: 80px; 
     width: 70%; 
     margin: auto; 
@@ -303,7 +303,7 @@ div.carousel-inner #personal12 {
     margin-right: 30px;
 } 
 
-} 
+}  */
 
 
 
@@ -311,7 +311,7 @@ div.carousel-inner #personal12 {
 
 
 /*------------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 1680px) {
+ @media only screen and (max-width: 1680px) {
 #myCarousel {
       width: 1680px; 
   } 
@@ -320,18 +320,18 @@ div.carousel-inner #personal12 {
     margin-top: 80px; 
 } 
 #homepageImage {
-    height: 100px; 
-    width: 700px; 
-    margin-left: 273px; 
+    height: 1000px; 
+    width: 650px; 
+    margin-left: 55px; 
 } 
 .header-text {
-    margin-right: 140px; 
+    margin-right: 30px; 
 } 
 .header-text-2{
-    margin-right: 140px; 
+    margin-right: 30px; 
 }
 .header-text-3 {
-    margin-right: 140px; 
+    margin-right: 30px; 
 } 
 /* ------------------------------------- advertising --------------------------- */
 
@@ -386,7 +386,7 @@ div.carousel-inner #ads6 {
     height: 1000px; 
     margin-left: 860px; 
     width: 700px; 
-}  
+}  */
 /* ---------------------------- womens page -----------------------------------*/
 
 .each p.caption.testCaption {
@@ -503,7 +503,7 @@ div.carousel-inner #ads6 {
 
 .image-holder.left {
     margin-left: 400px;
-}
+} */
 
 
 
@@ -616,27 +616,33 @@ div.carousel-inner #personal12 {
     .border {
         margin-right: 350px; 
     }
-} 
+}  
   
-
+/*this works*/
 /* ----------------------------------------------------------------------------- */ 
-@media only screen and (max-width: 1440px) {
+ @media only screen and (min-width: 1440px) {
+    #myCarousel {
+        width: 1440px; 
+    } 
     a.il {
-        margin-left: 590px; 
+        margin-left: 500px; 
     }
     #homepageImage {
         height: 900px; 
-        width: 600px; 
-        margin-left: 20px; 
+        width: 800px; 
+        margin-left: -50px;  
     }  
     .header-text {
-        margin-right: 20px; 
+        margin-right:95px; 
+        position:fixed;
     } 
     .header-text-2{
-        margin-right: 20px; 
+        margin-right:90px; 
+        position:fixed;
     }
     .header-text-3 {
-        margin-right: 20px;
+        margin-right:90px;
+        position:fixed;
     }  
 
 
@@ -922,10 +928,10 @@ div.carousel-inner #personal12 {
             position: relative;
         }    
         
- }
+ } 
    
 /* ----------------------------------------------- */ 
-@media only screen and (max-width: 1200px) { 
+ /* @media only screen and (max-width: 1200px) { 
   
 .image-grid  {
     padding-top: 80px; 
@@ -937,6 +943,6 @@ div.carousel-inner #personal12 {
     margin-left: -20px; 
 } 
 
-}
+}  */
 
 
