@@ -24,7 +24,7 @@ class Header extends Component {
                 <div className="container"> 
                     <div className="homepage-image"><img src="assets/images/a.jpg" id="homepageImage"/></div>
                     </div> 
-                        <span className="header-text">
+                        {/* <span className="header-text">
                          the Helmut Newton series,
                          </span>  
                          <span className="header-text-2"> 
@@ -32,7 +32,7 @@ class Header extends Component {
                         </span>
                         <span className="header-text-3">
                          Coming Soon 
-                         </span> 
+                         </span>  */}
                         
 
         {
